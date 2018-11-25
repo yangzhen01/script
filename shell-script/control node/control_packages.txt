@@ -1,0 +1,38 @@
+#!/bin/bash
+
+set -e
+
+echo "install keystone packages"
+read -p "press any to continue..."
+yum -y install openstack-keystone httpd mod_wsgi memcached python-memcached
+echo
+
+echo "install glance packages"
+read -p "press any to continue..."
+yum -y install openstack-glance python-glance python-glanceclient python-ceph
+echo
+
+echo "install nova packages"
+read -p "press any to continue..."
+yum -y install openstack-nova-api openstack-nova-cert openstack-nova-conductor openstack-nova-console openstack-nova-novncproxy openstack-nova-scheduler python-novaclient
+echo
+
+echo "install neutron packages"
+read -p "press any to continue..."
+yum -y install openstack-neutron openstack-neutron-ml2 python-neutronclient  python-neutron-lbaas openstack-neutron-lbaas
+echo
+
+echo "install dashboard packages"
+read -p "press any to continue..."
+yum -y install openstack-dashboard
+echo
+
+echo "install cinder packages"
+read -p "press any to continue..."
+yum -y install openstack-cinder python-cinderclient python-oslo-db MySQL-python
+echo
+
+echo "install ceilometr packages"
+read -p "press any to continue..."
+yum -y install openstack-ceilometer-api openstack-ceilometer-collector openstack-ceilometer-notification openstack-ceilometer-central openstack-ceilometer-alarm python-ceilometerclient
+echo
