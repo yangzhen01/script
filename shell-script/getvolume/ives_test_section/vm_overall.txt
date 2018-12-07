@@ -1,0 +1,540 @@
+ives.yf.chen@foxconn.com rdb-main lh-cdc401-private-compute-12 2018-08-22 1 10.134.226.95 4 16 Ubuntu16.04 /dev/vda 120 ssd_iops_1000
+ives.yf.chen@foxconn.com rdb-sub lh-cdc401-private-compute-12 2018-08-22 1 10.134.226.96 2 7 Ubuntu16.04 /dev/vda 60 ssd_iops_1000
+ives.yf.chen@foxconn.com ap-sub lh-cdc401-private-compute-6 2018-08-22 1 10.134.226.97 4 7 Ubuntu16.04 /dev/vda 1024 ssd_iops_1000
+ives.yf.chen@foxconn.com ap-main lh-cdc401-private-compute-10 2018-08-22 1 10.134.226.98 8 16 Ubuntu16.04 /dev/vda 2048 ssd_iops_1000
+admin LH_Redmine_DCAS lh-cdc401-private-compute-3 2017-12-19 1 10.134.171.59 16 8 CentOS_7.2_1511_x86_64_Web_30G /dev/vda 200 iops_600
+admin WSUS&AntiVirus_Server lh-cdc401-private-compute-17 2018-02-05 1 10.134.171.180 8 8 win2012r2x64_ENG_patched /dev/vda 150 iops_150 /dev/vdb 1024 iops_150
+admin DCaS_Win2012_2 lh-cdc401-private-compute-14 2018-03-28 1 10.134.236.90 8 8 win2012r2x64_ENG_patched /dev/vda 300 iops_2400
+admin FiWo_Portal(Johnny) lh-cdc401-private-compute-32 2018-05-04 1 10.134.171.112 4 4 CentOS7-1611-Tai /dev/vda 50 iops_150
+admin DiskProphetServer(POC) lh-cdc401-private-compute-13 2018-06-21 1 10.134.171.148 8 32 DiskProphetServer /dev/vda 100 ssd_iops_3000 /dev/vdb 500 ssd_iops_3000
+admin test-bryant lh-cdc401-private-compute-62 2018-07-09 1 10.134.236.12 2 2 cirros_0.3.4_X86_64 /dev/vda 1 iops_150
+admin test_by_zhuang lh-cdc401-private-compute-10 2018-07-09 1 10.134.224.226 1 1 cirros_0.3.4_X86_64 /dev/vda 1 iops_150
+admin test_gavin lh-cdc401-private-compute-20 2018-07-12 1 10.134.224.221 1 1 cirros_0.3.4_X86_64 /dev/vda 1 iops_150 /dev/vdb 2 iops_300
+admin repair(gavin) lh-cdc401-private-compute-13 2018-07-20 1 192.168.99.111 2 4 CentOS7-1611-Tai /dev/vda 100 iops_600
+admin storage-1 lh-cdc401-private-compute-62 2018-08-01 1 10.134.171.155 4 4 CentOS7.2 /dev/vda 50 iops_600 /dev/vdb 2 iops_150 /dev/vdc 2 iops_150
+admin storage-2 lh-cdc401-private-compute-61 2018-08-01 1 10.134.171.173 4 4 CentOS7.2 /dev/vda 50 iops_600 /dev/vdb 2 iops_150 /dev/vdc 2 iops_150
+admin storage-3 lh-cdc401-private-compute-61 2018-08-01 1 10.134.171.179 4 4 CentOS7.2 /dev/vda 50 iops_600 /dev/vdb 2 iops_150 /dev/vdc 2 iops_150 /dev/vdd 2 iops_150
+admin CentOS7.4 NULL NULL NULL 1706bf2c-e85b-4195-929c-7e4b4395cb8d 0
+admin 2048 NULL NULL NULL 95e978d2-4d84-4d4c-961b-1101eb683946 0
+admin 4096 NULL NULL NULL 30d829f4-bd2f-4cf6-9efd-07599c4f1545 0
+cpei-smt-me@mail.foxconn.com B082FSMTCloud lh-cdc401-private-compute-45 2018-05-09 1 10.134.236.212 16 64 en_windows_server_2012_r2_x64_standard_50G /dev/vda 50 ssd_iops_3000 /dev/vdb 5120 ssd_iops_3000
+jacky.j.zeng@foxconn.com G1-1 lh-cdc401-private-compute-22 2018-02-08 1 10.134.171.65 4 8 fixo-cloud-image-centos7-1611-30G-Development /dev/vda 50 iops_150 /dev/vdb 50 iops_150
+jacky.j.zeng@foxconn.com G1-2 lh-cdc401-private-compute-7 2018-02-08 1 10.134.171.71 4 8 fixo-cloud-image-centos7-1611-30G-Development /dev/vda 50 iops_150 /dev/vdb 50 iops_150
+jacky.j.zeng@foxconn.com G1-3 lh-cdc401-private-compute-7 2018-02-08 1 10.134.171.107 4 8 fixo-cloud-image-centos7-1611-30G-Development /dev/vda 50 iops_150 /dev/vdb 50 iops_150
+jacky.j.zeng@foxconn.com G1-4 lh-cdc401-private-compute-7 2018-02-08 1 10.134.171.111 4 8 fixo-cloud-image-centos7-1611-30G-Development /dev/vda 30 iops_150 /dev/vdb 50 iops_150
+jacky.j.zeng@foxconn.com G2-1 lh-cdc401-private-compute-22 2018-02-08 1 10.134.171.177 8 24 fixo-cloud-image-centos7-1611-30G-Development /dev/vda 50 iops_150 /dev/vdb 100 iops_150
+jacky.j.zeng@foxconn.com G2-2 lh-cdc401-private-compute-3 2018-02-08 1 10.134.171.189 8 8 fixo-cloud-image-centos7-1611-30G-Development /dev/vda 50 iops_150 /dev/vdb 100 iops_150
+jacky.j.zeng@foxconn.com G3-1 lh-cdc401-private-compute-3 2018-02-08 1 10.134.171.229 8 8 fixo-cloud-image-centos7-1611-30G-Development /dev/vda 50 iops_150 /dev/vdb 50 iops_150
+jacky.j.zeng@foxconn.com G3-2 lh-cdc401-private-compute-22 2018-02-08 1 10.134.171.230 4 16 fixo-cloud-image-centos7-1611-30G-Development /dev/vda 50 iops_150 /dev/vdb 50 iops_150
+jacky.j.zeng@foxconn.com G4-1 lh-cdc401-private-compute-3 2018-02-08 1 10.134.171.232 8 16 fixo-cloud-image-centos7-1611-30G-Development /dev/vda 50 iops_150 /dev/vdb 250 iops_150
+jacky.j.zeng@foxconn.com G4-2 lh-cdc401-private-compute-3 2018-02-08 1 10.134.171.38 8 16 fixo-cloud-image-centos7-1611-30G-Development /dev/vda 50 iops_150 /dev/vdb 250 iops_150
+jacky.j.zeng@foxconn.com G4-3 lh-cdc401-private-compute-22 2018-02-08 1 10.134.171.50 8 16 fixo-cloud-image-centos7-1611-30G-Development /dev/vda 50 iops_150 /dev/vdb 250 iops_150
+jacky.j.zeng@foxconn.com G4-4 lh-cdc401-private-compute-7 2018-02-08 1 10.134.171.51 8 16 fixo-cloud-image-centos7-1611-30G-Development /dev/vda 50 iops_150 /dev/vdb 250 iops_150
+jacky.j.zeng@foxconn.com G5-1 lh-cdc401-private-compute-7 2018-02-09 1 10.134.171.90 4 8 fixo-cloud-image-centos7-1611-30G-Development /dev/vda 50 iops_150 /dev/vdb 100 iops_150
+jacky.j.zeng@foxconn.com G5-2 lh-cdc401-private-compute-7 2018-02-09 1 10.134.171.135 4 8 fixo-cloud-image-centos7-1611-30G-Development /dev/vda 50 iops_150 /dev/vdb 100 iops_150
+jacky.j.zeng@foxconn.com G5-3 lh-cdc401-private-compute-22 2018-02-09 1 10.134.171.231 4 8 fixo-cloud-image-centos7-1611-30G-Development /dev/vda 50 iops_150 /dev/vdb 100 iops_150
+jacky.j.zeng@foxconn.com G5-4 lh-cdc401-private-compute-3 2018-02-09 1 10.134.171.248 4 8 fixo-cloud-image-centos7-1611-30G-Development /dev/vda 50 iops_150 /dev/vdb 100 iops_150
+jacky.j.zeng@foxconn.com G5-5 lh-cdc401-private-compute-3 2018-02-09 1 10.134.171.55 4 8 fixo-cloud-image-centos7-1611-30G-Development /dev/vda 50 iops_150 /dev/vdb 100 iops_150
+jacky.j.zeng@foxconn.com G5-6 lh-cdc401-private-compute-22 2018-02-09 1 10.134.171.56 4 8 fixo-cloud-image-centos7-1611-30G-Development /dev/vda 50 iops_150 /dev/vdb 100 iops_150
+jacky.j.zeng@foxconn.com G12-1 lh-cdc401-private-compute-2 2018-02-09 1 10.134.171.57 16 128 fixo-cloud-image-centos7-1611-30G-Development /dev/vda 50 ssd_iops_600 /dev/vdb 500 ssd_iops_600
+jacky.j.zeng@foxconn.com G12-2 lh-cdc401-private-compute-7 2018-02-09 1 10.134.171.60 16 64 fixo-cloud-image-centos7-1611-30G-Development /dev/vda 50 ssd_iops_600 /dev/vdb 500 ssd_iops_600
+jacky.j.zeng@foxconn.com G13-1 lh-cdc401-private-compute-22 2018-02-09 1 10.134.171.143 8 32 fixo-cloud-image-centos7-1611-30G-Development /dev/vda 50 ssd_iops_600 /dev/vdb 500 ssd_iops_600
+jacky.j.zeng@foxconn.com G13-2 lh-cdc401-private-compute-7 2018-02-12 1 10.134.236.6 8 32 fixo-cloud-image-centos7-1611-30G-Development /dev/vda 50 ssd_iops_600 /dev/vdb 500 ssd_iops_600
+jacky.j.zeng@foxconn.com G13-3 lh-cdc401-private-compute-7 2018-02-12 1 10.134.236.7 8 32 fixo-cloud-image-centos7-1611-30G-Development /dev/vda 50 ssd_iops_600 /dev/vdb 500 ssd_iops_600
+jacky.j.zeng@foxconn.com G13-4 lh-cdc401-private-compute-22 2018-02-12 1 10.134.236.8 8 32 fixo-cloud-image-centos7-1611-30G-Development /dev/vda 50 ssd_iops_600 /dev/vdb 500 ssd_iops_600
+jacky.j.zeng@foxconn.com G14-1 lh-cdc401-private-compute-22 2018-02-12 1 10.134.236.10 16 32 fixo-cloud-image-centos7-1611-30G-Development /dev/vda 50 iops_150 /dev/vdb 1000 iops_150
+jacky.j.zeng@foxconn.com G14-3 lh-cdc401-private-compute-3 2018-02-12 1 10.134.236.14 16 32 XXXXXXX /dev/vda 50 iops_150 /dev/vdb 1000 iops_150
+jacky.j.zeng@foxconn.com G14-4 lh-cdc401-private-compute-22 2018-02-12 1 10.134.236.15 16 32 XXXXXXX /dev/vda 50 iops_150 /dev/vdb 1000 iops_150
+jacky.j.zeng@foxconn.com G15-1 lh-cdc401-private-compute-3 2018-02-13 1 10.134.236.16 8 32 CentOS7-1611-Tai /dev/vda 50 iops_150 /dev/vdb 100 iops_150
+jacky.j.zeng@foxconn.com G15-2 lh-cdc401-private-compute-3 2018-02-13 1 10.134.236.17 8 32 CentOS7-1611-Tai /dev/vda 50 iops_150 /dev/vdb 100 iops_150
+jacky.j.zeng@foxconn.com G15-3 lh-cdc401-private-compute-22 2018-02-13 1 10.134.236.18 8 32 CentOS7-1611-Tai /dev/vda 50 iops_150 /dev/vdb 100 iops_150
+jacky.j.zeng@foxconn.com G15-4 lh-cdc401-private-compute-7 2018-02-13 1 10.134.236.19 8 32 CentOS7-1611-Tai /dev/vda 50 iops_150 /dev/vdb 100 iops_150
+jacky.j.zeng@foxconn.com G17-1 lh-cdc401-private-compute-3 2018-02-13 1 10.134.236.21 12 64 CentOS7-1611-Tai /dev/vda 1000 iops_150 /dev/vdb 1000 iops_150
+jacky.j.zeng@foxconn.com G18-1 lh-cdc401-private-compute-3 2018-02-20 1 10.134.236.22 8 16 CentOS7-1611-Tai /dev/vda 50 iops_150 /dev/vdb 300 iops_150
+jacky.j.zeng@foxconn.com G18-2 lh-cdc401-private-compute-7 2018-02-20 1 10.134.236.23 8 16 CentOS7-1611-Tai /dev/vda 50 iops_150 /dev/vdb 300 iops_150
+jacky.j.zeng@foxconn.com G13-5 lh-cdc401-private-compute-18 2018-03-19 1 10.134.236.9 8 32 fixo-cloud-image-centos7-1611-30G-Development /dev/vda 50 ssd_iops_600 /dev/vdb 500 ssd_iops_600
+jacky.j.zeng@foxconn.com G15-5 lh-cdc401-private-compute-43 2018-05-11 1 10.134.236.20 8 32 CentOS7-1611-Tai /dev/vda 50 iops_150
+jacky.j.zeng@foxconn.com new_G14-2 lh-cdc401-private-compute-24 2018-09-26 1 10.134.236.11 16 32 CentOS7.1 /dev/vda 50 iops_150 /dev/vdb 1000 iops_150
+jay.ch.huang@fii-foxconn.com lh_uthings_message_forward lh-cdc401-private-compute-43 2018-03-25 1 10.134.171.133 4 8 CloudPlatform-Ubuntu-14.04-pw /dev/vda 500 iops_2400 /dev/vdb 500 iops_2400
+jay.ch.huang@fii-foxconn.com lh_uthings_main lh-cdc401-private-compute-25 2018-03-25 1 10.134.171.134 4 8 CloudPlatform-Ubuntu-14.04-pw /dev/vda 500 iops_2400 /dev/vdb 1024 iops_2400
+jay.ch.huang@fii-foxconn.com lh_uthings_backup lh-cdc401-private-compute-23 2018-03-25 1 10.134.171.219 2 4 CloudPlatform-Ubuntu-14.04-pw /dev/vda 500 iops_2400 /dev/vdb 2048 iops_2400
+jay.ch.huang@fii-foxconn.com lh_fac_bridge_server lh-cdc401-private-compute-45 2018-03-25 1 10.134.171.245 4 8 CloudPlatform-Ubuntu-14.04-pw /dev/vda 500 iops_2400 /dev/vdb 500 iops_2400
+jay.ch.huang@fii-foxconn.com lh_fac_operation_platform lh-cdc401-private-compute-43 2018-03-25 1 10.134.171.250 16 64 CloudPlatform-Ubuntu-14.04-pw /dev/vda 500 iops_2400 /dev/vdb 3096 iops_2400
+jay.ch.huang@fii-foxconn.com lh_fac_navvis_server lh-cdc401-private-compute-17 2018-05-02 1 10.134.236.91 16 64 ubuntu-14.04-server-100G /dev/vda 250 iops_600 /dev/vdb 500 iops_600
+jay.ch.huang@fii-foxconn.com lh_fac_data_platform lh-cdc401-private-compute-17 2018-05-02 1 10.134.236.94 16 64 ubuntu-14.04-server-100G /dev/vda 250 iops_600 /dev/vdb 1000 iops_600
+jay.ch.huang@fii-foxconn.com lh_fac_monitor_server lh-cdc401-private-compute-1 2018-05-02 4 10.134.236.97 2 8 en_windows_server_2016_x64_standard_50G /dev/vda 500 NULL
+kelvin.wj.chen@mail.foxconn.com VN_QA_DB_1 lh-cdc401-private-compute-1 2018-04-09 1 10.134.236.24 8 32 Windows-server-2016-0205 /dev/vda 100 iops_600 /dev/vdb 1000 iops_600
+kelvin.wj.chen@mail.foxconn.com VN_QA_DB_2 lh-cdc401-private-compute-11 2018-04-26 1 10.134.236.25 8 32 Windows-server-2016-0205 /dev/vda 100 iops_600 /dev/vdb 1000 iops_600
+hzlh-mis-feng.fl@foxconn.com ETL_Server1 lh-cdc401-private-compute-56 2017-08-14 1 10.134.171.123 2 4 tw_windows_server_2008_r2_x64_enterprise_50G /dev/vda 50 iops_400 /dev/vdb 50 iops_300
+hzlh-mis-feng.fl@foxconn.com ETL_Server2 lh-cdc401-private-compute-18 2017-08-14 1 10.134.171.124 2 4 tw_windows_server_2008_r2_x64_enterprise_50G /dev/vda 50 iops_400 /dev/vdb 50 iops_300
+hzlh-mis-feng.fl@foxconn.com DB_Server1 lh-cdc401-private-compute-7 2017-08-17 1 10.134.171.131 8 12 RHEL6.5_with_ssh_root_login /dev/vda 50 iops_400 /dev/vdb 850 iops_300
+hzlh-mis-feng.fl@foxconn.com DB_Server2 lh-cdc401-private-compute-7 2017-08-17 1 10.134.171.132 8 12 RHEL6.5_with_ssh_root_login /dev/vda 50 iops_400 /dev/vdb 850 iops_300
+fii.qs@foxconn.com q lh-cdc401-private-compute-19 2018-11-14 3 10.134.225.119 4 4 CentOS-7-x86_64-GenericCloud-1804(7.5) /dev/vda 100 iops_300 /dev/vdb 100 iops_300
+eddie.t.shang@foxconn.com CentOS73_G2-1 lh-cdc401-private-compute-3 2017-08-19 1 10.134.171.174 8 16 fixo-cloud-image-centos7-1611-30G-Development /dev/vda 50 NULL /dev/vdb 100 iops_600
+eddie.t.shang@foxconn.com CentOS73_G3-1 lh-cdc401-private-compute-23 2017-08-19 1 10.134.171.175 8 16 fixo-cloud-image-centos7-1611-30G-Development /dev/vda 50 NULL /dev/vdb 2050 iops_600
+eddie.t.shang@foxconn.com CentOS73_G3-2 lh-cdc401-private-compute-3 2017-08-19 1 10.134.171.176 8 16 fixo-cloud-image-centos7-1611-30G-Development /dev/vda 50 NULL /dev/vdb 2050 iops_600
+eddie.t.shang@foxconn.com 2_Ubuntu1404_G7-1 lh-cdc401-private-compute-3 2017-09-11 1 10.134.171.52 16 24 ubuntu-14.04-server-cloudimg-amd64 /dev/vda 50 NULL
+eddie.t.shang@foxconn.com vm_lh_web_m lh-cdc401-private-compute-7 2018-01-15 1 10.134.171.146 8 32 fixo-cloud-image-centos7-1511-30G-WebServer /dev/vda 50 iops_150 /dev/vdb 50 iops_150
+eddie.t.shang@foxconn.com vm_lh_mysql_m lh-cdc401-private-compute-3 2018-01-15 1 196.168.100.6 4 8 fixo-cloud-image-centos7-1611-30G-Development /dev/vda 50 iops_150 /dev/vdb 150 iops_150
+eddie.t.shang@foxconn.com vm_lh_mysql_s lh-cdc401-private-compute-7 2018-01-15 1 196.168.100.7 4 8 fixo-cloud-image-centos7-1611-30G-Development /dev/vda 50 iops_150 /dev/vdb 150 iops_150
+eddie.t.shang@foxconn.com ICM_agent1 lh-cdc401-private-compute-16 2018-02-02 1 10.134.171.142 8 32 CentOS6.8-Base-Server-x86_64 /dev/vda 50 iops_150 /dev/vdb 1000 iops_150
+eddie.t.shang@foxconn.com ICM_agent2 lh-cdc401-private-compute-16 2018-02-02 1 10.134.171.144 8 32 CentOS6.8-Base-Server-x86_64 /dev/vda 50 iops_150 /dev/vdb 1000 iops_150
+eddie.t.shang@foxconn.com ICM_agent3 lh-cdc401-private-compute-11 2018-02-02 1 10.134.171.145 8 32 CentOS6.8-Base-Server-x86_64 /dev/vda 50 iops_150 /dev/vdb 1000 iops_150
+eddie.t.shang@foxconn.com ICM_Service1 lh-cdc401-private-compute-56 2018-02-02 1 10.134.171.150 4 16 CentOS6.8-Base-Server-x86_64 /dev/vda 50 iops_150 /dev/vdb 500 iops_150
+eddie.t.shang@foxconn.com xDataInsigh lh-cdc401-private-compute-56 2018-02-02 1 10.134.171.152 4 16 CentOS6.8-Base-Server-x86_64 /dev/vda 50 iops_150 /dev/vdb 100 iops_150
+eddie.t.shang@foxconn.com xDataInsigh_Database lh-cdc401-private-compute-55 2018-02-02 1 10.134.171.153 4 16 CentOS6.8-Base-Server-x86_64 /dev/vda 50 iops_150 /dev/vdb 150 iops_150
+eddie.t.shang@foxconn.com xDataInsigh_Client lh-cdc401-private-compute-16 2018-02-02 1 10.134.171.154 4 4 win2012r2x64_ENG_patched /dev/vda 150 iops_150 /dev/vdb 150 iops_150
+eddie.t.shang@foxconn.com ClouderaHadoop lh-cdc401-private-compute-9 2018-02-09 1 10.134.171.181 16 64 win2012r2x64_ENG_patched /dev/vda 100 ssd_iops_3000 /dev/vdb 1000 ssd_iops_3000
+eddie.t.shang@foxconn.com FTP_Server lh-cdc401-private-compute-7 2018-02-10 1 10.134.171.136 4 4 XXXXXXX /dev/vda 100 iops_150 /dev/vdb 500 iops_150 /dev/vdc 2048 iops_150
+eddie.t.shang@foxconn.com iDS_MC1 lh-cdc401-private-compute-22 2018-02-20 1 10.134.236.29 4 4 CentOS7-1611-Tai /dev/vda 50 iops_150 /dev/vdb 50 iops_150
+eddie.t.shang@foxconn.com iDS_MC2 lh-cdc401-private-compute-22 2018-02-20 1 10.134.236.30 4 4 CentOS7-1611-Tai /dev/vda 50 iops_150 /dev/vdb 50 iops_150
+eddie.t.shang@foxconn.com G9-1 lh-cdc401-private-compute-17 2018-02-24 1 10.134.236.33 8 16 win2012r2x64_ENG_patched /dev/vda 50 iops_150 /dev/vdb 150 iops_150
+eddie.t.shang@foxconn.com G10-1 lh-cdc401-private-compute-43 2018-02-24 1 10.134.236.34 8 32 win2012r2x64_ENG_patched /dev/vda 50 iops_150 /dev/vdb 50 iops_150
+eddie.t.shang@foxconn.com G11-1 lh-cdc401-private-compute-43 2018-02-24 1 10.134.236.35 8 16 win2012r2x64_ENG_patched /dev/vda 50 iops_150 /dev/vdb 50 iops_150
+eddie.t.shang@foxconn.com G11-2 lh-cdc401-private-compute-16 2018-02-24 1 10.134.236.36 8 16 win2012r2x64_ENG_patched /dev/vda 50 iops_150 /dev/vdb 50 iops_150
+eddie.t.shang@foxconn.com CentOS_Server1 lh-cdc401-private-compute-54 2018-03-15 1 10.134.236.49 8 16 CentOS7-1611-Tai /dev/vda 50 iops_W150/R300 /dev/vdb 100 iops_W150/R300
+eddie.t.shang@foxconn.com CentOS_Server2 lh-cdc401-private-compute-45 2018-03-15 1 10.134.236.5 8 16 CentOS7-1611-Tai /dev/vda 50 iops_W150/R300 /dev/vdb 100 iops_W150/R300
+eddie.t.shang@foxconn.com CentOS7.3-OpenLDAP-Master1 lh-cdc401-private-compute-58 2018-03-30 1 10.134.236.98 4 8 CentOS7-1611-Tai /dev/vda 50 iops_150 /dev/vdb 100 iops_150
+eddie.t.shang@foxconn.com CentOS7.3-OpenLDAP-Master2 lh-cdc401-private-compute-56 2018-03-30 1 10.134.236.99 4 8 CentOS7-1611-Tai /dev/vda 50 iops_150 /dev/vdb 100 iops_150
+eddie.t.shang@foxconn.com CentOS7.3_OpenLDAP_Slave1 lh-cdc401-private-compute-56 2018-03-30 1 10.134.236.100 4 8 CentOS7-1611-Tai /dev/vda 50 iops_150 /dev/vdb 100 iops_150
+eddie.t.shang@foxconn.com CentOS7.3_EdgeConnt_Portal1 lh-cdc401-private-compute-56 2018-03-30 1 10.134.236.101 4 8 CentOS7-1611-Tai /dev/vda 50 iops_150 /dev/vdb 50 iops_150
+eddie.t.shang@foxconn.com CentOS7.3_Zabbix lh-cdc401-private-compute-17 2018-03-30 1 10.134.236.102 4 8 fixo-cloud-image-centos7-1611-30G-Development /dev/vda 50 iops_150 /dev/vdb 100 iops_150
+eddie.t.shang@foxconn.com CentOS7.3_EdgeConnt_Portal2 lh-cdc401-private-compute-56 2018-03-30 1 10.134.236.104 4 8 fixo-cloud-image-centos7-1611-30G-Development /dev/vda 50 iops_150 /dev/vdb 50 iops_150
+eddie.t.shang@foxconn.com SaltStack1 lh-cdc401-private-compute-23 2018-03-30 1 10.134.236.105 4 8 fixo-cloud-image-centos7-1611-30G-Development /dev/vda 50 iops_150 /dev/vdb 100 iops_150
+eddie.t.shang@foxconn.com CentOS7.3_EdgeConnt_Portal3 lh-cdc401-private-compute-54 2018-03-30 1 10.134.236.106 4 8 CentOS7-1611-Tai /dev/vda 50 iops_150 /dev/vdb 50 iops_150
+eddie.t.shang@foxconn.com CentOS7.3_EdgeConnt_Portal4 lh-cdc401-private-compute-17 2018-03-30 1 10.134.236.107 4 8 CentOS7-1611-Tai /dev/vda 50 iops_150 /dev/vdb 50 iops_150
+eddie.t.shang@foxconn.com CentOS7.3_EdgeConnt_Portal5 lh-cdc401-private-compute-51 2018-03-30 1 10.134.236.108 4 8 CentOS7-1611-Tai /dev/vda 50 iops_150 /dev/vdb 50 iops_150
+eddie.t.shang@foxconn.com CentOS7.3_EdgeConnt_Portal6 lh-cdc401-private-compute-4 2018-03-30 1 10.134.236.109 4 8 CentOS7-1611-Tai /dev/vda 50 iops_150 /dev/vdb 50 iops_150
+eddie.t.shang@foxconn.com CMDB1 lh-cdc401-private-compute-45 2018-03-30 1 10.134.236.110 4 8 fixo-cloud-image-centos7-1611-30G-Development /dev/vda 50 iops_150 /dev/vdb 100 iops_150
+eddie.t.shang@foxconn.com CentOS7.3_EdgeConnt_Portal7 lh-cdc401-private-compute-32 2018-03-30 1 10.134.236.111 4 8 CentOS7-1611-Tai /dev/vda 50 iops_150 /dev/vdb 50 iops_150
+eddie.t.shang@foxconn.com CentOS7.3_EdgeConnt_Portal8 lh-cdc401-private-compute-11 2018-03-30 1 10.134.236.112 4 8 CentOS7-1611-Tai /dev/vda 50 iops_150 /dev/vdb 50 iops_150
+eddie.t.shang@foxconn.com EdgeConnt_Frontdesk_Master lh-cdc401-private-compute-57 2018-03-31 1 10.134.236.115 8 8 CentOS7-1611-Tai /dev/vda 50 iops_150 /dev/vdb 50 iops_150
+eddie.t.shang@foxconn.com EdgeConnt_Frontdesk_Slave lh-cdc401-private-compute-55 2018-03-31 1 10.134.236.116 8 8 CentOS7-1611-Tai /dev/vda 50 iops_150 /dev/vdb 50 iops_150
+eddie.t.shang@foxconn.com CassandraDB1 lh-cdc401-private-compute-23 2018-03-31 1 10.134.236.117 8 32 CentOS7-1611-Tai /dev/vda 50 iops_600 /dev/vdb 2000 iops_500
+eddie.t.shang@foxconn.com EdgeConnt_Backstage_Master lh-cdc401-private-compute-54 2018-03-31 1 10.134.236.118 8 8 CentOS7-1611-Tai /dev/vda 50 iops_150 /dev/vdb 100 iops_150
+eddie.t.shang@foxconn.com EdgeConnt_Backstage_Slave lh-cdc401-private-compute-45 2018-03-31 1 10.134.236.119 8 8 CentOS7-1611-Tai /dev/vda 50 iops_150 /dev/vdb 100 iops_150
+eddie.t.shang@foxconn.com Kubernetes1 lh-cdc401-private-compute-17 2018-03-31 1 10.134.236.120 8 8 CentOS7-1611-Tai /dev/vda 50 iops_150 /dev/vdb 100 iops_150
+eddie.t.shang@foxconn.com Kubernetes2 lh-cdc401-private-compute-56 2018-03-31 1 10.134.236.121 8 8 CentOS7-1611-Tai /dev/vda 50 iops_150 /dev/vdb 100 iops_150
+eddie.t.shang@foxconn.com Kubernetes3 lh-cdc401-private-compute-51 2018-03-31 1 10.134.236.122 8 8 CentOS7-1611-Tai /dev/vda 50 iops_150 /dev/vdb 100 iops_150
+eddie.t.shang@foxconn.com Kubernetes4 lh-cdc401-private-compute-4 2018-03-31 1 10.134.236.123 8 8 CentOS7-1611-Tai /dev/vda 50 iops_150 /dev/vdb 100 iops_150
+eddie.t.shang@foxconn.com Kubernetes5 lh-cdc401-private-compute-45 2018-03-31 1 10.134.236.124 8 8 CentOS7-1611-Tai /dev/vda 50 iops_150 /dev/vdb 100 iops_150
+eddie.t.shang@foxconn.com EdgeConnt_DB_Master1 lh-cdc401-private-compute-32 2018-03-31 1 10.134.236.126 8 16 CentOS7-1611-Tai /dev/vda 50 iops_500 /dev/vdb 500 iops_500
+eddie.t.shang@foxconn.com EdgeConnt_DB_Master2 lh-cdc401-private-compute-11 2018-03-31 1 10.134.236.127 8 16 CentOS7-1611-Tai /dev/vda 50 iops_500 /dev/vdb 500 iops_500
+eddie.t.shang@foxconn.com CassandraDB2 lh-cdc401-private-compute-2 2018-03-31 1 10.134.236.128 8 32 CentOS7-1611-Tai /dev/vda 50 iops_500 /dev/vdb 2000 iops_500
+eddie.t.shang@foxconn.com CassandraDB3 lh-cdc401-private-compute-25 2018-03-31 1 196.168.100.22 8 32 CentOS7-1611-Tai /dev/vda 50 iops_500 /dev/vdb 2000 iops_500
+eddie.t.shang@foxconn.com EdgeConnt_DB_Master3 lh-cdc401-private-compute-13 2018-03-31 1 10.134.236.130 8 16 CentOS7-1611-Tai /dev/vda 50 iops_500 /dev/vdb 500 iops_500
+eddie.t.shang@foxconn.com EdgeConnt_DB_Maste4 lh-cdc401-private-compute-45 2018-03-31 1 10.134.236.131 8 16 CentOS7-1611-Tai /dev/vda 50 iops_500 /dev/vdb 500 iops_500
+eddie.t.shang@foxconn.com API_Gateway_Master lh-cdc401-private-compute-57 2018-03-31 1 10.134.236.132 4 8 CentOS7-1611-Tai /dev/vda 50 iops_150 /dev/vdb 100 iops_150
+eddie.t.shang@foxconn.com API_Gateway_Slave lh-cdc401-private-compute-55 2018-03-31 1 10.134.236.133 4 8 CentOS7-1611-Tai /dev/vda 50 iops_150 /dev/vdb 100 iops_150
+eddie.t.shang@foxconn.com Service_Registry_Cluster1 lh-cdc401-private-compute-54 2018-03-31 1 10.134.236.134 4 8 CentOS7-1611-Tai /dev/vda 50 iops_150 /dev/vdb 100 iops_150
+eddie.t.shang@foxconn.com Service_Registry_Cluster2 lh-cdc401-private-compute-58 2018-03-31 1 10.134.236.135 4 8 CentOS7-1611-Tai /dev/vda 50 iops_150 /dev/vdb 100 iops_150
+eddie.t.shang@foxconn.com Service_Registry_Cluster3 lh-cdc401-private-compute-17 2018-03-31 1 10.134.236.136 4 8 CentOS7-1611-Tai /dev/vda 50 iops_150 /dev/vdb 100 iops_150
+eddie.t.shang@foxconn.com Service_Registry_Cluster4 lh-cdc401-private-compute-51 2018-03-31 1 10.134.236.137 4 8 CentOS7-1611-Tai /dev/vda 50 iops_150 /dev/vdb 100 iops_150
+eddie.t.shang@foxconn.com Access_Certification1 lh-cdc401-private-compute-51 2018-03-31 1 10.134.236.138 4 8 CentOS7-1611-Tai /dev/vda 50 iops_150 /dev/vdb 100 iops_150
+eddie.t.shang@foxconn.com Access_Certification2 lh-cdc401-private-compute-4 2018-03-31 1 10.134.236.139 4 8 CentOS7-1611-Tai /dev/vda 50 iops_150 /dev/vdb 100 iops_150
+eddie.t.shang@foxconn.com Access_Certification3 lh-cdc401-private-compute-45 2018-03-31 1 10.134.236.140 4 8 CentOS7-1611-Tai /dev/vda 50 iops_150 /dev/vdb 100 iops_150
+eddie.t.shang@foxconn.com Access_Certification4 lh-cdc401-private-compute-2 2018-03-31 1 10.134.236.141 4 8 CentOS7-1611-Tai /dev/vda 50 iops_150 /dev/vdb 100 iops_150
+eddie.t.shang@foxconn.com CassandraDB4 lh-cdc401-private-compute-57 2018-03-31 1 10.134.236.142 8 32 CentOS7-1611-Tai /dev/vda 50 iops_500 /dev/vdb 2000 iops_500
+eddie.t.shang@foxconn.com CassandraDB5 lh-cdc401-private-compute-55 2018-03-31 1 196.168.100.24 8 32 CentOS7-1611-Tai /dev/vda 50 iops_500 /dev/vdb 2000 iops_500
+eddie.t.shang@foxconn.com Service_Monitoring_Center1 lh-cdc401-private-compute-54 2018-03-31 1 10.134.236.144 4 8 CentOS7-1611-Tai /dev/vda 50 iops_150 /dev/vdb 100 iops_150
+eddie.t.shang@foxconn.com Service_Monitoring_Center2 lh-cdc401-private-compute-18 2018-03-31 1 10.134.236.145 4 8 CentOS7-1611-Tai /dev/vda 50 iops_150 /dev/vdb 100 iops_150
+eddie.t.shang@foxconn.com CassandraDB6 lh-cdc401-private-compute-54 2018-03-31 1 196.168.100.25 8 32 CentOS7-1611-Tai /dev/vda 50 iops_500 /dev/vdb 2000 iops_500
+eddie.t.shang@foxconn.com Service_Monitoring_Center3 lh-cdc401-private-compute-58 2018-03-31 1 10.134.236.147 4 8 CentOS7-1611-Tai /dev/vda 50 iops_150 /dev/vdb 100 iops_150
+eddie.t.shang@foxconn.com Service_Monitoring_Center4 lh-cdc401-private-compute-17 2018-03-31 1 10.134.236.149 4 8 CentOS7-1611-Tai /dev/vda 50 iops_150 /dev/vdb 100 iops_150
+eddie.t.shang@foxconn.com Service_Configuration_Center1 lh-cdc401-private-compute-1 2018-03-31 1 10.134.236.150 4 8 CentOS7-1611-Tai /dev/vda 50 iops_150 /dev/vdb 100 iops_150
+eddie.t.shang@foxconn.com Service_Configuration_Center2 lh-cdc401-private-compute-51 2018-03-31 1 10.134.236.151 4 8 CentOS7-1611-Tai /dev/vda 50 iops_150 /dev/vdb 100 iops_150
+eddie.t.shang@foxconn.com CassandraDB7 lh-cdc401-private-compute-4 2018-03-31 1 196.168.100.26 8 32 CentOS7-1611-Tai /dev/vda 50 iops_500 /dev/vdb 2000 iops_500
+eddie.t.shang@foxconn.com Service_Configuration_Center3 lh-cdc401-private-compute-45 2018-03-31 1 10.134.236.153 4 8 CentOS7-1611-Tai /dev/vda 50 iops_150 /dev/vdb 100 iops_150
+eddie.t.shang@foxconn.com Service_Configuration_Center4 lh-cdc401-private-compute-2 2018-03-31 1 10.134.236.154 4 8 CentOS7-1611-Tai /dev/vda 50 iops_150 /dev/vdb 100 iops_150
+eddie.t.shang@foxconn.com Microservice_Cluster1 lh-cdc401-private-compute-32 2018-03-31 1 10.134.236.155 4 8 CentOS7-1611-Tai /dev/vda 50 iops_150 /dev/vdb 100 iops_150
+eddie.t.shang@foxconn.com Microservice_Cluster2 lh-cdc401-private-compute-11 2018-03-31 1 10.134.236.156 4 8 CentOS7-1611-Tai /dev/vda 50 iops_150 /dev/vdb 100 iops_150
+eddie.t.shang@foxconn.com Microservice_Cluster3 lh-cdc401-private-compute-15 2018-03-31 1 10.134.236.157 4 8 CentOS7-1611-Tai /dev/vda 50 iops_150 /dev/vdb 100 iops_150
+eddie.t.shang@foxconn.com Microservice_Cluster4 lh-cdc401-private-compute-45 2018-03-31 1 10.134.236.158 4 8 CentOS7-1611-Tai /dev/vda 50 iops_150 /dev/vdb 100 iops_150
+eddie.t.shang@foxconn.com IMChat_DB1 lh-cdc401-private-compute-16 2018-03-31 1 10.134.236.159 8 16 CentOS7-1611-Tai /dev/vda 50 iops_500 /dev/vdb 200 iops_500
+eddie.t.shang@foxconn.com IMChat_DB2 lh-cdc401-private-compute-54 2018-03-31 1 10.134.236.160 8 16 CentOS7-1611-Tai /dev/vda 50 iops_500 /dev/vdb 200 iops_500
+eddie.t.shang@foxconn.com CassandraDB8 lh-cdc401-private-compute-18 2018-03-31 1 196.168.100.27 8 32 CentOS7-1611-Tai /dev/vda 50 iops_500 /dev/vdb 2000 iops_500
+eddie.t.shang@foxconn.com CassandraDB9 lh-cdc401-private-compute-58 2018-03-31 1 196.168.100.28 8 32 CentOS7-1611-Tai /dev/vda 50 iops_500 /dev/vdb 2000 iops_500
+eddie.t.shang@foxconn.com CassandraDB10 lh-cdc401-private-compute-17 2018-03-31 1 196.168.100.29 8 32 CentOS7-1611-Tai /dev/vda 50 iops_500 /dev/vdb 2000 iops_500
+eddie.t.shang@foxconn.com CassandraDB11 lh-cdc401-private-compute-17 2018-03-31 1 196.168.100.30 8 32 CentOS7-1611-Tai /dev/vda 50 iops_500 /dev/vdb 2000 iops_500
+eddie.t.shang@foxconn.com CassandraDB12 lh-cdc401-private-compute-51 2018-03-31 1 196.168.100.31 8 32 CentOS7-1611-Tai /dev/vda 50 iops_500 /dev/vdb 2000 iops_500
+eddie.t.shang@foxconn.com CassandraDB13 lh-cdc401-private-compute-45 2018-03-31 1 196.168.100.32 8 32 CentOS7-1611-Tai /dev/vda 50 iops_500 /dev/vdb 2000 iops_500
+eddie.t.shang@foxconn.com CassandraDB14 lh-cdc401-private-compute-2 2018-03-31 1 196.168.100.33 8 32 CentOS7-1611-Tai /dev/vda 50 iops_500 /dev/vdb 2000 iops_500
+eddie.t.shang@foxconn.com CassandraDB15 lh-cdc401-private-compute-32 2018-03-31 1 196.168.100.34 8 32 CentOS7-1611-Tai /dev/vda 50 iops_500 /dev/vdb 2000 iops_500
+eddie.t.shang@foxconn.com CassandraDB16 lh-cdc401-private-compute-11 2018-03-31 1 196.168.100.35 8 32 CentOS7-1611-Tai /dev/vda 50 iops_500 /dev/vdb 2000 iops_500
+eddie.t.shang@foxconn.com CassandraDB17 lh-cdc401-private-compute-18 2018-03-31 1 196.168.100.36 8 32 CentOS7-1611-Tai /dev/vda 50 iops_500 /dev/vdb 2000 iops_500
+eddie.t.shang@foxconn.com CassandraDB18 lh-cdc401-private-compute-45 2018-03-31 1 196.168.100.37 8 32 CentOS7-1611-Tai /dev/vda 50 iops_500 /dev/vdb 2000 iops_500
+eddie.t.shang@foxconn.com CassandraDB19 lh-cdc401-private-compute-23 2018-03-31 1 196.168.100.38 8 32 CentOS7-1611-Tai /dev/vda 50 iops_500 /dev/vdb 2000 iops_500
+eddie.t.shang@foxconn.com CassandraDB20 lh-cdc401-private-compute-1 2018-03-31 1 196.168.100.39 8 32 CentOS7-1611-Tai /dev/vda 50 iops_500 /dev/vdb 2000 iops_500
+eddie.t.shang@foxconn.com CassandraDB21 lh-cdc401-private-compute-2 2018-03-31 1 196.168.100.40 8 32 CentOS7-1611-Tai /dev/vda 50 iops_500 /dev/vdb 2000 iops_500
+eddie.t.shang@foxconn.com CassandraDB22 lh-cdc401-private-compute-25 2018-03-31 1 196.168.100.41 8 32 CentOS7-1611-Tai /dev/vda 50 iops_500 /dev/vdb 2000 iops_500
+eddie.t.shang@foxconn.com CassandraDB23 lh-cdc401-private-compute-16 2018-03-31 1 196.168.100.42 8 32 CentOS7-1611-Tai /dev/vda 50 iops_500 /dev/vdb 2000 iops_500
+eddie.t.shang@foxconn.com CassandraDB24 lh-cdc401-private-compute-17 2018-03-31 1 196.168.100.43 8 32 CentOS7-1611-Tai /dev/vda 50 iops_500 /dev/vdb 2000 iops_500
+eddie.t.shang@foxconn.com CassandraDB25 lh-cdc401-private-compute-43 2018-03-31 1 196.168.100.44 8 32 CentOS7-1611-Tai /dev/vda 50 iops_500 /dev/vdb 2000 iops_500
+eddie.t.shang@foxconn.com Docker_Warehouse lh-cdc401-private-compute-58 2018-04-02 1 10.134.236.181 4 8 CentOS7-1611-Tai /dev/vda 50 iops_150 /dev/vdb 100 iops_150
+eddie.t.shang@foxconn.com CentOS7.3-OpenLDAP-Slave2 lh-cdc401-private-compute-2 2018-04-02 1 10.134.236.182 4 8 fixo-cloud-image-centos7-1611-30G-Development /dev/vda 50 iops_150 /dev/vdb 100 iops_150
+eddie.t.shang@foxconn.com IOT_MySQL_DB_Server1 lh-cdc401-private-compute-58 2018-04-08 1 10.134.236.192 8 16 CentOS7-1611-Tai /dev/vda 50 iops_600 /dev/vdb 250 iops_600
+eddie.t.shang@foxconn.com IOT_MySQL_DB_Server2 lh-cdc401-private-compute-51 2018-04-08 1 10.134.236.193 8 16 CentOS7-1611-Tai /dev/vda 50 iops_600 /dev/vdb 250 iops_600
+eddie.t.shang@foxconn.com IOT_MySQL_DB_Server3 lh-cdc401-private-compute-4 2018-04-08 1 10.134.236.194 8 16 CentOS7-1611-Tai /dev/vda 50 iops_600 /dev/vdb 250 iops_600
+eddie.t.shang@foxconn.com ETL_Server1 lh-cdc401-private-compute-4 2018-04-08 1 10.134.236.195 8 32 CentOS7-1611-Tai /dev/vda 50 iops_600 /dev/vdb 100 iops_600
+eddie.t.shang@foxconn.com ETL_Server2 lh-cdc401-private-compute-11 2018-04-08 1 10.134.236.196 8 32 CentOS7-1611-Tai /dev/vda 50 iops_600 /dev/vdb 100 iops_600
+eddie.t.shang@foxconn.com ETL_Server3 lh-cdc401-private-compute-32 2018-04-08 1 10.134.236.197 8 32 CentOS7-1611-Tai /dev/vda 50 iops_600 /dev/vdb 100 iops_600
+eddie.t.shang@foxconn.com SMTIOE_WebServer1 lh-cdc401-private-compute-1 2018-04-08 1 10.134.236.205 2 4 CentOS7-1611-Tai /dev/vda 50 iops_600 /dev/vdb 200 iops_600
+eddie.t.shang@foxconn.com SMTIOE_WebServer2 lh-cdc401-private-compute-2 2018-04-08 1 10.134.236.206 2 4 CentOS7-1611-Tai /dev/vda 50 iops_600 /dev/vdb 200 iops_600
+eddie.t.shang@foxconn.com foc-lh-ids-web-lh-m lh-cdc401-private-compute-8 2018-04-09 1 10.134.236.217 4 4 CentOS7-1611-Tai /dev/vda 100 iops_600 /dev/vdb 150 iops_600
+eddie.t.shang@foxconn.com foc-lh-ids-web-lh-s lh-cdc401-private-compute-51 2018-04-09 1 10.134.236.218 4 4 CentOS7-1611-Tai /dev/vda 100 iops_600 /dev/vdb 150 iops_600
+eddie.t.shang@foxconn.com foc-lh-dingo-web-lh-s lh-cdc401-private-compute-1 2018-04-09 1 10.134.236.220 4 4 CentOS7-1611-Tai /dev/vda 100 iops_600 /dev/vdb 150 iops_600
+eddie.t.shang@foxconn.com foc-lh-ids-mysql-lh-m lh-cdc401-private-compute-32 2018-04-09 1 10.134.236.221 4 8 CentOS7-1611-Tai /dev/vda 100 iops_600 /dev/vdb 500 iops_600
+eddie.t.shang@foxconn.com foc-lh-ids-mysql-lh-s lh-cdc401-private-compute-45 2018-04-09 1 10.134.236.222 4 8 CentOS7-1611-Tai /dev/vda 100 iops_600 /dev/vdb 500 iops_600
+eddie.t.shang@foxconn.com foc-lh-redis-lh-01 lh-cdc401-private-compute-15 2018-04-09 1 10.134.236.223 4 8 CentOS7-1611-Tai /dev/vda 100 iops_600 /dev/vdb 250 iops_600
+eddie.t.shang@foxconn.com foc-lh-redis-lh-02 lh-cdc401-private-compute-43 2018-04-09 1 10.134.236.224 4 8 CentOS7-1611-Tai /dev/vda 100 iops_600 /dev/vdb 250 iops_600
+eddie.t.shang@foxconn.com foc-lh-dingo-ai-lh lh-cdc401-private-compute-56 2018-04-09 1 10.134.236.225 4 8 CentOS7-1611-Tai /dev/vda 100 iops_600 /dev/vdb 250 iops_600
+eddie.t.shang@foxconn.com foc-lh-dingo-operator-lh lh-cdc401-private-compute-17 2018-04-09 1 10.134.236.226 4 8 CentOS7-1611-Tai /dev/vda 100 iops_600 /dev/vdb 250 iops_600
+eddie.t.shang@foxconn.com foc-lh-ids-mycat-lh-m lh-cdc401-private-compute-55 2018-04-09 1 10.134.236.227 8 16 CentOS7-1611-Tai /dev/vda 50 iops_600 /dev/vdb 50 iops_600
+eddie.t.shang@foxconn.com foc-lh-ids-mycat-lh-s lh-cdc401-private-compute-25 2018-04-09 1 10.134.236.228 8 16 CentOS7-1611-Tai /dev/vda 50 iops_600 /dev/vdb 50 iops_600
+eddie.t.shang@foxconn.com foc-lh-qlik-lh lh-cdc401-private-compute-15 2018-04-09 1 10.134.236.229 4 8 win2012r2x64_ENG_patched /dev/vda 100 iops_600 /dev/vdb 500 iops_600
+eddie.t.shang@foxconn.com Foc_lh_BEACON_Connt_ha_master lh-cdc401-private-compute-58 2018-04-28 1 10.134.236.238 4 4 CentOS_7.2_1511_x86_64_DB_30G /dev/vda 50 iops_600 /dev/vdb 50 iops_600
+eddie.t.shang@foxconn.com Foc_lh_BEACON_Connt_ha_slave lh-cdc401-private-compute-56 2018-04-28 1 10.134.236.4 4 4 CentOS_7.2_1511_x86_64_DB_30G /dev/vda 50 iops_600 /dev/vdb 50 iops_600
+eddie.t.shang@foxconn.com Foc_lh_BEACON_Connt_mycat_master lh-cdc401-private-compute-56 2018-04-28 1 10.134.236.40 4 4 CentOS_7.2_1511_x86_64_DB_30G /dev/vda 50 iops_600 /dev/vdb 50 iops_600
+eddie.t.shang@foxconn.com Foc_lh_BEACON_Connt_mycat_slave lh-cdc401-private-compute-56 2018-04-28 1 10.134.236.41 4 4 CentOS_7.2_1511_x86_64_DB_30G /dev/vda 50 iops_600 /dev/vdb 50 iops_600
+eddie.t.shang@foxconn.com Foc_lh_BEACON_Connt_web_master lh-cdc401-private-compute-56 2018-04-28 1 10.134.236.42 8 8 CentOS_7.2_1511_x86_64_DB_30G /dev/vda 50 iops_600 /dev/vdb 100 iops_600
+eddie.t.shang@foxconn.com Foc_lh_BEACON_Connt_web_slave lh-cdc401-private-compute-56 2018-04-28 1 10.134.236.43 8 8 CentOS_7.2_1511_x86_64_DB_30G /dev/vda 50 iops_600 /dev/vdb 100 iops_600
+eddie.t.shang@foxconn.com Foc_lh_BEACON_Connt_Backs_master lh-cdc401-private-compute-54 2018-04-28 1 10.134.236.44 8 8 CentOS_7.2_1511_x86_64_DB_30G /dev/vda 50 iops_600 /dev/vdb 100 iops_600
+eddie.t.shang@foxconn.com Foc_lh_BEACON_Connt_Backs_slave lh-cdc401-private-compute-15 2018-04-28 1 10.134.236.45 8 8 CentOS_7.2_1511_x86_64_DB_30G /dev/vda 50 iops_600 /dev/vdb 100 iops_600
+eddie.t.shang@foxconn.com Foc_lh_BEACON_Connt_Sub_master lh-cdc401-private-compute-56 2018-04-28 1 10.134.236.46 8 8 CentOS_7.2_1511_x86_64_DB_30G /dev/vda 50 iops_600 /dev/vdb 100 iops_600
+eddie.t.shang@foxconn.com Foc_lh_BEACON_Connt_Sub_slave lh-cdc401-private-compute-45 2018-04-28 1 10.134.236.47 8 8 CentOS_7.2_1511_x86_64_DB_30G /dev/vda 50 iops_600 /dev/vdb 100 iops_600
+eddie.t.shang@foxconn.com foc_lh_BEACON_Connt_DB_master1 lh-cdc401-private-compute-54 2018-04-28 1 10.134.236.50 8 16 CentOS_7.2_1511_x86_64_DB_30G /dev/vda 50 iops_600 /dev/vdb 250 iops_600
+eddie.t.shang@foxconn.com foc_lh_BEACON_Connt_DB_slave1 lh-cdc401-private-compute-11 2018-04-28 1 10.134.236.53 8 16 CentOS_7.2_1511_x86_64_DB_30G /dev/vda 50 iops_600 /dev/vdb 250 iops_600
+eddie.t.shang@foxconn.com foc_lh_BEACON_Connt_DB_master2 lh-cdc401-private-compute-51 2018-04-28 1 10.134.236.56 8 16 CentOS_7.2_1511_x86_64_DB_30G /dev/vda 50 iops_600 /dev/vdb 250 iops_600
+eddie.t.shang@foxconn.com foc_lh_BEACON_Connt_DB_slave2 lh-cdc401-private-compute-58 2018-04-28 1 10.134.236.57 8 16 CentOS_7.2_1511_x86_64_DB_30G /dev/vda 50 iops_600 /dev/vdb 250 iops_600
+eddie.t.shang@foxconn.com APP_Test-new lh-cdc401-private-compute-2 2018-05-03 1 10.134.171.217 8 32 win2012r2x64_ENG_patched /dev/vda 200 NULL
+eddie.t.shang@foxconn.com foc_lh_dbs lh-cdc401-private-compute-4 2018-05-07 1 10.134.171.128 8 16 en_windows_server_2012_r2_x64_standard_50G /dev/vda 50 iops_600 /dev/vdb 150 iops_600
+eddie.t.shang@foxconn.com foc_lh_dbs_mysql2 lh-cdc401-private-compute-13 2018-05-07 1 10.134.171.156 8 32 CentOS_7.2_1511_x86_64_DB_30G /dev/vda 50 iops_600 /dev/vdb 1000 iops_600
+eddie.t.shang@foxconn.com foc_lh_dbs_mysql3 lh-cdc401-private-compute-55 2018-05-07 1 10.134.171.157 8 32 CentOS_7.2_1511_x86_64_DB_30G /dev/vda 50 iops_600 /dev/vdb 1000 iops_600
+eddie.t.shang@foxconn.com foc_lh_dbs_web2 lh-cdc401-private-compute-18 2018-05-07 1 10.134.236.114 8 32 CentOS_7.2_1511_x86_64_Web_30G /dev/vda 50 iops_600 /dev/vdb 100 iops_600
+eddie.t.shang@foxconn.com foc_lh_dbs_web3 lh-cdc401-private-compute-4 2018-05-07 1 10.134.236.125 8 32 CentOS_7.2_1511_x86_64_Web_30G /dev/vda 50 iops_600 /dev/vdb 100 iops_600
+eddie.t.shang@foxconn.com foc_lh_dbs_sftp1 lh-cdc401-private-compute-13 2018-05-07 1 10.134.236.179 8 32 CentOS_7.2_1511_x86_64_DB_30G /dev/vda 50 iops_600 /dev/vdb 1000 iops_600
+eddie.t.shang@foxconn.com foc_lh_dbs_sftp2 lh-cdc401-private-compute-9 2018-05-07 1 10.134.236.198 8 32 CentOS_7.2_1511_x86_64_DB_30G /dev/vda 50 iops_600 /dev/vdb 1000 iops_600
+eddie.t.shang@foxconn.com foc_lh_nova7 lh-cdc401-private-compute-4 2018-05-07 1 10.134.236.199 8 32 CentOS7.2_1511_X86_64 /dev/vda 50 ssd_iops_3000 /dev/vdb 500 ssd_iops_3000
+eddie.t.shang@foxconn.com foc_lh_nova6 lh-cdc401-private-compute-25 2018-05-07 1 10.134.236.201 8 32 CentOS7.2_1511_X86_64 /dev/vda 50 ssd_iops_3000 /dev/vdb 500 ssd_iops_3000
+eddie.t.shang@foxconn.com vm_lh_web_s lh-cdc401-private-compute-11 2018-05-08 1 196.168.100.5 4 8 fixo-cloud-image-centos7-1511-30G-WebServer /dev/vda 50 iops_150
+eddie.t.shang@foxconn.com foc_lh_Beacon_inteligente_s lh-cdc401-private-compute-52 2018-06-01 1 10.134.224.103 4 8 ubuntu-1404-pw /dev/vda 50 iops_600 /dev/vdb 200 iops_600
+eddie.t.shang@foxconn.com foc_lh_beacon_kezhistore_lh lh-cdc401-private-compute-52 2018-06-06 1 10.134.224.119 4 8 win2012r2x64_ENG_patched /dev/vda 100 iops_600 /dev/vdb 500 iops_600
+eddie.t.shang@foxconn.com corepro_server_a lh-cdc401-private-compute-52 2018-06-06 1 10.134.224.122 16 128 CentOS7-1611-Tai /dev/vda 80 iops_600 /dev/vdb 1000 iops_600
+eddie.t.shang@foxconn.com corepro_server_b lh-cdc401-private-compute-53 2018-06-06 1 10.134.224.123 16 128 generic-ubuntu-16.04 /dev/vda 80 iops_600 /dev/vdb 1000 iops_600
+eddie.t.shang@foxconn.com foc_lh_blueking1 lh-cdc401-private-compute-16 2018-06-06 1 10.134.224.124 8 16 CentOS7-1611-Tai /dev/vda 200 iops_600 /dev/vdb 200 iops_600
+eddie.t.shang@foxconn.com foc_lh_blueking2 lh-cdc401-private-compute-32 2018-06-06 1 10.134.224.132 8 16 CentOS7-1611-Tai /dev/vda 200 iops_600 /dev/vdb 200 iops_600
+eddie.t.shang@foxconn.com foc_lh_blueking3 lh-cdc401-private-compute-4 2018-06-06 1 10.134.224.136 8 16 CentOS7-1611-Tai /dev/vda 200 iops_600 /dev/vdb 200 iops_600
+eddie.t.shang@foxconn.com foc_lh_blueking4 lh-cdc401-private-compute-54 2018-06-06 1 10.134.224.140 8 16 CentOS7-1611-Tai /dev/vda 200 iops_600 /dev/vdb 200 iops_600
+eddie.t.shang@foxconn.com foc_lh_blueking5 lh-cdc401-private-compute-43 2018-06-06 1 10.134.224.141 8 16 CentOS7-1611-Tai /dev/vda 200 iops_600 /dev/vdb 200 iops_600
+eddie.t.shang@foxconn.com foc_lh_blueking6 lh-cdc401-private-compute-9 2018-06-06 1 10.134.224.143 8 16 CentOS7-1611-Tai /dev/vda 200 iops_600 /dev/vdb 200 iops_600
+eddie.t.shang@foxconn.com foc_lh_beacon_db_lh_slave lh-cdc401-private-compute-1 2018-06-07 1 10.134.224.111 8 12 CentOS7-1611-Tai /dev/vda 100 ssd_iops_3000 /dev/vdb 1000 ssd_iops_3000
+eddie.t.shang@foxconn.com foc_lh_beacon_web_lh_slave lh-cdc401-private-compute-32 2018-06-07 1 10.134.224.112 8 8 CentOS7-1611-Tai /dev/vda 100 ssd_iops_3000 /dev/vdb 250 ssd_iops_3000
+eddie.t.shang@foxconn.com foc_lh_Cl_K8s01 lh-cdc401-private-compute-54 2018-06-11 1 10.134.224.156 4 8 CentOS7-1611-Tai /dev/vda 100 iops_600 /dev/vdb 100 iops_600
+eddie.t.shang@foxconn.com foc_lh_Cl_K8s02 lh-cdc401-private-compute-17 2018-06-11 1 10.134.224.157 4 8 CentOS7-1611-Tai /dev/vda 100 iops_600 /dev/vdb 100 iops_600
+eddie.t.shang@foxconn.com foc_lh_Cl_K8s04 lh-cdc401-private-compute-9 2018-06-11 1 10.134.224.161 4 8 CentOS7-1611-Tai /dev/vda 100 iops_600 /dev/vdb 100 iops_600
+eddie.t.shang@foxconn.com foc_lh_Cl_Jenkins lh-cdc401-private-compute-1 2018-06-11 1 10.134.224.162 4 8 CentOS7-1611-Tai /dev/vda 100 iops_600 /dev/vdb 100 iops_600
+eddie.t.shang@foxconn.com foc_lh_bi03 lh-cdc401-private-compute-1 2018-06-13 1 10.134.171.26 8 32 CentOS7-1611-With_SSH_Login /dev/vda 50 ssd_iops_3000 /dev/vdb 500 ssd_iops_3000
+eddie.t.shang@foxconn.com foc_lh_bi02 lh-cdc401-private-compute-9 2018-06-13 1 10.134.171.24 8 32 CentOS7-1611-With_SSH_Login /dev/vda 50 ssd_iops_3000 /dev/vdb 500 ssd_iops_3000
+eddie.t.shang@foxconn.com foc_lh_bi04 lh-cdc401-private-compute-43 2018-06-13 1 10.134.171.27 8 32 CentOS7-1611-With_SSH_Login /dev/vda 50 ssd_iops_3000 /dev/vdb 500 ssd_iops_3000
+eddie.t.shang@foxconn.com foc_lh_bi05 lh-cdc401-private-compute-16 2018-06-13 1 10.134.171.171 8 32 CentOS7-1611-With_SSH_Login /dev/vda 50 ssd_iops_3000 /dev/vdb 500 ssd_iops_3000
+eddie.t.shang@foxconn.com foc_lh_bi06 lh-cdc401-private-compute-55 2018-06-13 1 10.134.171.34 8 32 CentOS7-1611-With_SSH_Login /dev/vda 50 ssd_iops_3000 /dev/vdb 500 ssd_iops_3000
+eddie.t.shang@foxconn.com foc_lh_nova_6 lh-cdc401-private-compute-43 2018-06-19 1 10.134.224.205 12 12 CentOS7-1611-With_SSH_Login /dev/vda 100 ssd_iops_3000 /dev/vdb 10240 iops_600
+eddie.t.shang@foxconn.com foc_lh_beacon_file_m lh-cdc401-private-compute-32 2018-06-29 1 10.134.224.197 10 16 CentOS7-1611-With_SSH_Login /dev/vda 50 ssd_iops_2400 /dev/vdb 2000 ssd_iops_2400
+eddie.t.shang@foxconn.com CentOS73_with_gui lh-cdc401-private-compute-2 2018-07-07 1 10.134.171.104 4 8 fixo-cloud-image-centos7-1611-30G-Development /dev/vda 50 iops_300
+eddie.t.shang@foxconn.com foc_lh_nova8_20180716 lh-cdc401-private-compute-26 2018-07-16 1 10.134.171.127 8 32 CentOS7.2_1511_X86_64 /dev/vda 50 ssd_iops_3000 /dev/vdb 500 ssd_iops_3000
+eddie.t.shang@foxconn.com foc_lh_dbs_mysql1_20180716 lh-cdc401-private-compute-12 2018-07-16 1 10.134.171.129 8 32 foc_lh_dbs_mysql1_0716 /dev/vda 50 iops_600 /dev/vdb 1000 iops_600
+eddie.t.shang@foxconn.com test lh-cdc401-private-compute-10 2018-07-19 1 10.134.171.68 4 2 CentOS7.3 /dev/vda 30 iops_150
+eddie.t.shang@foxconn.com new_foc_lh_Cl_K8s03_0720 lh-cdc401-private-compute-10 2018-07-20 1 10.134.224.159 4 8 foc_repair_20180720 /dev/vda 100 iops_600 /dev/vdb 100 iops_600
+eddie.t.shang@foxconn.com foc_lh_Beacon_db_lh_slave2_20180723 lh-cdc401-private-compute-6 2018-07-23 1 10.134.228.59 4 8 CentOS7.3 /dev/vda 50 iops_600 /dev/vdb 500 iops_600
+eddie.t.shang@foxconn.com foc_lh_Beacon_db_lh_slave1_20180723 lh-cdc401-private-compute-6 2018-07-23 1 10.134.224.207 4 8 CentOS7.3 /dev/vda 50 iops_600 /dev/vdb 500 iops_600
+eddie.t.shang@foxconn.com foc_lh_bi01 lh-cdc401-private-compute-59 2018-07-24 1 10.134.171.25 8 32 CentOS7-1611-With_SSH_Login /dev/vda 50 ssd_iops_3000 /dev/vdb 500 ssd_iops_3000
+eddie.t.shang@foxconn.com foc_lh_zr_cloud NULL NULL NULL a0ef378e-14e6-41ce-a299-fe7cf0b1cd88 0
+eddie.t.shang@foxconn.com 16384 NULL NULL NULL 04fae5c1-0728-4f5e-9788-e045104ac286 0
+eddie.t.shang@foxconn.com 16384 NULL NULL NULL 1ad1dfde-1694-4875-9082-58edf9c933a3 0
+eddie.t.shang@foxconn.com 16384 NULL NULL NULL 2469d13f-9afc-4237-b4e6-6d3a00974f91 0
+eddie.t.shang@foxconn.com 16384 NULL NULL NULL f39ed338-2218-443b-9780-677309ea0252 0
+eddie.t.shang@foxconn.com 32768 NULL NULL NULL 4e778fce-ee80-4748-a741-f00803bccc24 0
+eddie.t.shang@foxconn.com 16384 NULL NULL NULL 80fe5974-3898-4d5a-aa26-61ab698fb576 0
+eddie.t.shang@foxconn.com 16384 NULL NULL NULL a9b4bf03-3e1f-4a3d-82f2-d3c00597ed70 0
+eddie.t.shang@foxconn.com 16384 NULL NULL NULL fc994dfb-021d-4e96-bae3-57f0ddf87522 0
+eddie.t.shang@foxconn.com 32768 NULL NULL NULL f3c276f3-5c2a-4d69-bcb2-255b0276baa5 0
+eddie.t.shang@foxconn.com 16384 NULL NULL NULL bff32758-dbcb-408f-80a2-1ffe4cdcfb3e 0
+eddie.t.shang@foxconn.com 32768 NULL NULL NULL e39a3808-213d-4438-b660-5a1986d37394 0
+eddie.t.shang@foxconn.com 16384 NULL NULL NULL 646335cf-154a-4f11-a4a8-cf0e19d8c831 0
+eddie.t.shang@foxconn.com 16384 NULL NULL NULL c3d9677e-7c99-4350-baf5-97a10ef007c2 0
+eddie.t.shang@foxconn.com 8192 NULL NULL NULL f7a05902-c8e2-4d96-bebd-aab2c52e80e3 0
+welly.lj.wang@mail.foxconn.com Mon01 lh-cdc401-private-compute-6 2018-09-15 1 10.134.226.130 16 32 CentOS7.4 /dev/vda 100 iops_600 /dev/vdb 1000 iops_600
+welly.lj.wang@mail.foxconn.com Mon02 lh-cdc401-private-compute-10 2018-09-15 1 10.134.226.131 16 32 CentOS7.4 /dev/vda 100 iops_600 /dev/vdb 1000 iops_600
+welly.lj.wang@mail.foxconn.com storage01 lh-cdc401-private-compute-12 2018-09-15 1 10.134.226.132 32 128 CentOS7.4 /dev/vda 100 iops_600 /dev/vdb 1000 iops_600
+welly.lj.wang@mail.foxconn.com storage02 lh-cdc401-private-compute-5 2018-09-15 1 10.134.226.133 32 128 CentOS7.4 /dev/vda 100 iops_600 /dev/vdb 1000 iops_600
+welly.lj.wang@mail.foxconn.com storage03 lh-cdc401-private-compute-26 2018-09-15 1 10.134.226.134 32 128 CentOS7.4 /dev/vda 100 iops_600 /dev/vdb 1000 iops_600
+welly.lj.wang@mail.foxconn.com MSTRETL lh-cdc401-private-compute-19 2018-09-15 1 10.134.226.135 8 16 WindowsServer2012R2_Standard_ENG /dev/vda 50 iops_600 /dev/vdb 200 iops_600
+welly.lj.wang@mail.foxconn.com app01 lh-cdc401-private-compute-14 2018-09-15 1 10.134.226.136 16 64 CentOS7.4 /dev/vda 100 iops_600 /dev/vdb 500 iops_600
+welly.lj.wang@mail.foxconn.com app02 lh-cdc401-private-compute-19 2018-09-15 1 10.134.226.137 16 64 CentOS7.4 /dev/vda 100 iops_600 /dev/vdb 500 iops_600
+welly.lj.wang@mail.foxconn.com MSTRRPT lh-cdc401-private-compute-6 2018-09-15 1 10.134.226.138 8 16 WindowsServer2012R2_Standard_ENG /dev/vda 50 iops_600 /dev/vdb 500 iops_600
+welly.lj.wang@mail.foxconn.com APMShow01 lh-cdc401-private-compute-10 2018-09-15 1 10.134.226.139 8 16 CentOS7.4 /dev/vda 100 iops_600 /dev/vdb 1000 iops_600
+welly.lj.wang@mail.foxconn.com APMShow02 lh-cdc401-private-compute-6 2018-09-15 1 10.134.228.85 8 16 CentOS7.4 /dev/vda 100 iops_600 /dev/vdb 1000 iops_600
+welly.lj.wang@mail.foxconn.com MSTRAP lh-cdc401-private-compute-10 2018-09-15 1 10.134.226.140 4 8 WindowsServer2012R2_Standard_ENG /dev/vda 50 iops_600 /dev/vdb 300 iops_600
+welly.lj.wang@mail.foxconn.com APMAnalyze01 lh-cdc401-private-compute-10 2018-09-15 1 10.134.226.141 8 16 CentOS7.4 /dev/vda 100 iops_600 /dev/vdb 1000 iops_600
+welly.lj.wang@mail.foxconn.com APMAnalyze02 lh-cdc401-private-compute-24 2018-09-15 1 10.134.228.86 8 16 CentOS7.4 /dev/vda 100 iops_600 /dev/vdb 1000 iops_600
+welly.lj.wang@mail.foxconn.com APMcollect01 lh-cdc401-private-compute-6 2018-09-15 1 10.134.226.142 8 16 CentOS7.4 /dev/vda 100 iops_600 /dev/vdb 1000 iops_600
+welly.lj.wang@mail.foxconn.com APMcollect02 lh-cdc401-private-compute-10 2018-09-15 1 10.134.228.87 8 16 CentOS7.4 /dev/vda 100 iops_600 /dev/vdb 1000 iops_600
+welly.lj.wang@mail.foxconn.com MSTRDB lh-cdc401-private-compute-25 2018-09-15 1 10.134.226.143 4 16 WindowsServer2012R2_DataCenter_ENG /dev/vda 50 iops_600 /dev/vdb 1000 iops_600
+welly.lj.wang@mail.foxconn.com NFS01 lh-cdc401-private-compute-24 2018-09-15 1 10.134.228.88 8 16 CentOS7.4 /dev/vda 100 iops_600 /dev/vdb 2000 iops_600
+welly.lj.wang@mail.foxconn.com NFS02 lh-cdc401-private-compute-14 2018-09-15 1 10.134.226.144 8 16 CentOS7.4 /dev/vda 100 iops_600 /dev/vdb 2000 iops_600
+welly.lj.wang@mail.foxconn.com MysqlBak01 lh-cdc401-private-compute-10 2018-09-15 1 10.134.226.146 4 8 CentOS7.4 /dev/vda 100 iops_600 /dev/vdb 100 iops_600
+welly.lj.wang@mail.foxconn.com MysqlBak02 lh-cdc401-private-compute-19 2018-09-15 1 10.134.226.147 4 8 CentOS7.4 /dev/vda 100 iops_600 /dev/vdb 100 iops_600
+welly.lj.wang@mail.foxconn.com PowerBI01 lh-cdc401-private-compute-19 2018-09-15 1 10.134.226.153 8 16 WindowsServer2012R2_Standard_ENG /dev/vda 50 iops_600 /dev/vdb 200 iops_600
+welly.lj.wang@mail.foxconn.com MaxIoT01 lh-cdc401-private-compute-6 2018-09-15 1 10.134.226.163 8 16 CentOS7.4 /dev/vda 50 iops_600 /dev/vdb 200 iops_600
+welly.lj.wang@mail.foxconn.com MaxIoT02 lh-cdc401-private-compute-25 2018-09-15 1 10.134.226.164 8 16 CentOS7.4 /dev/vda 50 iops_600 /dev/vdb 200 iops_600
+welly.lj.wang@mail.foxconn.com MaxIoT03 lh-cdc401-private-compute-24 2018-09-15 1 10.134.226.165 8 16 CentOS7.4 /dev/vda 50 iops_600 /dev/vdb 200 iops_600
+welly.lj.wang@mail.foxconn.com MaxMQTT01 lh-cdc401-private-compute-14 2018-09-15 1 10.134.226.166 8 16 CentOS7.4 /dev/vda 50 iops_600 /dev/vdb 100 iops_600
+welly.lj.wang@mail.foxconn.com MaxIOTDB lh-cdc401-private-compute-6 2018-09-15 1 10.134.226.167 8 16 CentOS7.4 /dev/vda 50 iops_600 /dev/vdb 500 iops_600
+welly.lj.wang@mail.foxconn.com InsightDB lh-cdc401-private-compute-10 2018-09-15 1 10.134.226.168 8 16 CentOS7.4 /dev/vda 50 iops_600 /dev/vdb 500 iops_600
+welly.lj.wang@mail.foxconn.com K8sM01 lh-cdc401-private-compute-15 2018-09-15 1 10.134.226.169 8 16 CentOS7.4 /dev/vda 100 iops_600 /dev/vdb 200 iops_600
+welly.lj.wang@mail.foxconn.com K8sM02 lh-cdc401-private-compute-25 2018-09-15 1 10.134.226.170 8 16 CentOS7.4 /dev/vda 100 iops_600 /dev/vdb 200 iops_600
+welly.lj.wang@mail.foxconn.com K8sM03 lh-cdc401-private-compute-24 2018-09-15 1 10.134.226.174 8 16 CentOS7.4 /dev/vda 100 iops_600 /dev/vdb 200 iops_600
+welly.lj.wang@mail.foxconn.com K8sS01 lh-cdc401-private-compute-14 2018-09-15 1 10.134.226.175 8 16 CentOS7.4 /dev/vda 100 iops_600 /dev/vdb 200 iops_600
+welly.lj.wang@mail.foxconn.com K8sS02 lh-cdc401-private-compute-6 2018-09-15 1 10.134.226.176 8 16 CentOS7.4 /dev/vda 100 iops_600 /dev/vdb 200 iops_600
+welly.lj.wang@mail.foxconn.com K8sS03 lh-cdc401-private-compute-10 2018-09-15 1 10.134.226.177 8 16 CentOS7.4 /dev/vda 100 iops_600 /dev/vdb 200 iops_600
+welly.lj.wang@mail.foxconn.com Build01 lh-cdc401-private-compute-19 2018-09-15 1 10.134.226.178 8 16 CentOS7.4 /dev/vda 100 iops_600 /dev/vdb 200 iops_600
+welly.lj.wang@mail.foxconn.com Build02 lh-cdc401-private-compute-23 2018-09-15 1 10.134.226.179 8 16 CentOS7.4 /dev/vda 100 iops_600 /dev/vdb 200 iops_600
+welly.lj.wang@mail.foxconn.com Harbor01 lh-cdc401-private-compute-15 2018-09-15 1 10.134.226.180 8 16 CentOS7.4 /dev/vda 100 iops_600 /dev/vdb 2000 iops_600
+welly.lj.wang@mail.foxconn.com Harbor02 lh-cdc401-private-compute-25 2018-09-15 1 10.134.226.181 8 16 CentOS7.4 /dev/vda 100 iops_600 /dev/vdb 2000 iops_600
+welly.lj.wang@mail.foxconn.com API01 lh-cdc401-private-compute-24 2018-09-15 1 10.134.226.182 4 8 CentOS7.4 /dev/vda 100 iops_600 /dev/vdb 200 iops_600
+welly.lj.wang@mail.foxconn.com API02 lh-cdc401-private-compute-14 2018-09-15 1 10.134.226.183 4 8 CentOS7.4 /dev/vda 100 iops_600 /dev/vdb 200 iops_600
+welly.lj.wang@mail.foxconn.com share01 lh-cdc401-private-compute-9 2018-09-15 1 10.134.226.184 16 32 CentOS7.4 /dev/vda 100 iops_600 /dev/vdb 200 iops_600
+welly.lj.wang@mail.foxconn.com share02 lh-cdc401-private-compute-6 2018-09-15 1 10.134.226.185 16 32 CentOS7.4 /dev/vda 100 iops_600 /dev/vdb 200 iops_600
+welly.lj.wang@mail.foxconn.com share03 lh-cdc401-private-compute-10 2018-09-15 1 10.134.226.186 16 32 CentOS7.4 /dev/vda 100 iops_600 /dev/vdb 200 iops_600
+welly.lj.wang@mail.foxconn.com Mysql01 lh-cdc401-private-compute-12 2018-09-17 1 10.134.226.187 4 8 CentOS7.4 /dev/vda 100 iops_600 /dev/vdb 100 iops_600
+nsdii.smt@mail.foxconn.com foc_lh_beacon_git_lh lh-cdc401-private-compute-53 2018-05-24 1 10.134.236.88 2 2 CentOS-7.3-PW-20170731 /dev/vda 50 ssd_iops_600 /dev/vdb 300 ssd_iops_600
+nsdii.smt@mail.foxconn.com foc_jh_can_qlink_m_01_20180711 lh-cdc401-private-compute-7 2018-07-11 1 10.134.236.65 16 64 win2012r2x64_ENG_patched /dev/vda 100 ssd_iops_3000 /dev/vdb 500 ssd_iops_3000
+daniel.hs.lin@mail.foxconn.com Fii_yuenan01 lh-cdc401-private-compute-9 2018-05-26 1 10.134.236.80 8 16 en_windows_server_2012_r2_x64_standard_50G /dev/vda 100 ssd_iops_600 /dev/vdb 500 iops_600
+daniel.hs.lin@mail.foxconn.com Fii_yuenan_DB01 lh-cdc401-private-compute-53 2018-05-26 1 10.134.171.116 8 32 en_windows_server_2012_r2_x64_standard_50G /dev/vda 100 ssd_iops_600 /dev/vdb 1024 iops_600
+maroc.yc.wu@fii-foxconn.com api_gitlab- lh-cdc401-private-compute-53 2018-06-01 1 10.134.224.100 4 8 ubuntu-16.04-x86-64 /dev/vda 50 ssd_iops_3000 /dev/vdb 200 iops_600
+maroc.yc.wu@fii-foxconn.com api_docker- lh-cdc401-private-compute-43 2018-06-01 1 10.134.224.101 4 8 ubuntu-16.04-x86-64 /dev/vda 50 ssd_iops_3000 /dev/vdb 500 iops_600
+maroc.yc.wu@fii-foxconn.com api_gitlab lh-cdc401-private-compute-20 2018-06-07 1 10.134.224.97 4 8 ubuntu-16.04-x86-64 /dev/vda 50 ssd_iops_3000
+maroc.yc.wu@fii-foxconn.com Ubuntu16.04 lh-cdc401-private-compute-61 2018-07-21 1 10.134.171.73 4 8 Ubuntu16.04 /dev/vda 50 ssd_iops_3000
+hezhi201701@163.com testzrx lh-cdc401-private-compute-25 2018-10-05 1 10.134.225.23 4 8 WindowsServer2012R2_Standard_CN /dev/vda 50 iops_300
+hezhi201701@163.com cent7.4_test_zrx lh-cdc401-private-compute-8 2018-10-19 1 10.134.225.49 8 32 CentOS7.4 /dev/vda 50 iops_300
+hezhi201701@163.com redhat_test_zrx lh-cdc401-private-compute-8 2018-10-19 4 10.134.225.50 8 16 RHEL6.5_With_GUI /dev/vda 50 iops_300
+bella.yl.li@mail.foxconn.com CSD_Server lh-cdc401-private-compute-9 2018-02-26 1 10.134.171.15 16 64 win2012r2x64_ENG_patched /dev/vda 100 ssd_iops_600 /dev/vdb 1000 ssd_iops_600
+bella.yl.li@mail.foxconn.com 2012Server1 lh-cdc401-private-compute-45 2018-03-12 1 10.134.171.110 16 32 win2012r2x64_ENG_patched /dev/vda 100 ssd_iops_3000 /dev/vdb 1000 ssd_iops_3000
+bella.yl.li@mail.foxconn.com 2012Server2 lh-cdc401-private-compute-23 2018-03-12 1 10.134.171.109 16 32 win2012r2x64_ENG_patched /dev/vda 100 ssd_iops_3000 /dev/vdb 1000 ssd_iops_3000
+jaxk.xj.sheng@mail.foxconn.com Alife-lh01 lh-cdc401-private-compute-14 2018-10-30 1 10.134.225.64 16 32 WindowsServer2008R2_Standard_ENG /dev/vda 100 ssd_iops_1000 /dev/vdb 900 ssd_iops_1000
+jaxk.xj.sheng@mail.foxconn.com Alife-lh02 lh-cdc401-private-compute-19 2018-10-30 1 10.134.225.65 16 32 WindowsServer2008R2_Standard_ENG /dev/vda 100 ssd_iops_1000 /dev/vdb 900 ssd_iops_1000
+andrew@foxconn.com test lh-cdc401-private-compute-10 2018-08-01 1 192.168.100.9 4 4 CentOS7.4 /dev/vda 50 iops_150
+alven.yw.chiang@foxconn.com WinCCAPP_208 lh-cdc401-private-compute-43 2018-01-31 1 10.134.171.208 16 32 win2012r2x64_ENG_patched /dev/vda 150 ssd_iops_6000 /dev/vdb 100 ssd_iops_6000
+alven.yw.chiang@foxconn.com MOMAPPWeb01 lh-cdc401-private-compute-14 2018-02-24 1 10.134.171.183 8 16 win2012r2x64_ENG_patched /dev/vda 150 ssd_iops_6000 /dev/vdb 50 ssd_iops_6000
+alven.yw.chiang@foxconn.com momdb1 lh-cdc401-private-compute-5 2018-02-24 1 10.134.171.205 8 64 rhel-server-6.9-x86_64-dvd /dev/vda 100 ssd_iops_6000 /dev/vdb 410 ssd_iops_6000
+alven.yw.chiang@foxconn.com MOMAPPWeb03 lh-cdc401-private-compute-20 2018-03-03 1 10.134.171.186 8 16 win2012r2x64_ENG_patched /dev/vda 150 ssd_iops_6000 /dev/vdb 50 ssd_iops_6000
+alven.yw.chiang@foxconn.com MOMCIOAPP01 lh-cdc401-private-compute-14 2018-03-03 1 10.134.171.187 8 16 win2012r2x64_ENG_patched /dev/vda 150 ssd_iops_6000 /dev/vdb 50 ssd_iops_6000
+alven.yw.chiang@foxconn.com MOMCIOAPP02 lh-cdc401-private-compute-12 2018-03-03 1 10.134.171.188 8 16 win2012r2x64_ENG_patched /dev/vda 150 ssd_iops_6000 /dev/vdb 50 ssd_iops_6000
+alven.yw.chiang@foxconn.com MOMAISAPP lh-cdc401-private-compute-14 2018-03-03 1 10.134.171.190 8 16 win2012r2x64_ENG_patched /dev/vda 150 ssd_iops_6000 /dev/vdb 50 ssd_iops_6000
+alven.yw.chiang@foxconn.com APSDBPrimary lh-cdc401-private-compute-14 2018-03-03 1 10.134.171.198 4 16 win2012r2x64_ENG_patched /dev/vda 100 ssd_iops_6000 /dev/vdb 200 ssd_iops_6000
+alven.yw.chiang@foxconn.com APSDBSty lh-cdc401-private-compute-16 2018-03-03 1 10.134.171.215 8 32 win2012r2x64_ENG_patched /dev/vda 100 ssd_iops_6000 /dev/vdb 200 ssd_iops_6000
+alven.yw.chiang@foxconn.com BIDBSTY lh-cdc401-private-compute-5 2018-03-06 1 10.134.171.213 4 16 win2012r2x64_ENG_patched /dev/vda 100 ssd_iops_6000 /dev/vdb 50 ssd_iops_6000
+alven.yw.chiang@foxconn.com WinCCAPP lh-cdc401-private-compute-43 2018-03-06 1 10.134.171.214 4 16 win2012r2x64_ENG_patched /dev/vda 100 ssd_iops_6000 /dev/vdb 50 ssd_iops_6000
+alven.yw.chiang@foxconn.com G14_Win2012Server-2 lh-cdc401-private-compute-24 2018-03-06 1 10.134.171.210 4 8 win2012r2x64_ENG_patched /dev/vda 100 ssd_iops_6000 /dev/vdb 1024 ssd_iops_6000
+alven.yw.chiang@foxconn.com MOMCISAPP lh-cdc401-private-compute-10 2018-03-06 1 10.134.171.196 8 16 win2012r2x64_ENG_patched /dev/vda 150 ssd_iops_6000 /dev/vdb 50 ssd_iops_6000
+alven.yw.chiang@foxconn.com BIDBPrimary lh-cdc401-private-compute-54 2018-03-06 1 10.134.171.199 4 16 win2012r2x64_ENG_patched /dev/vda 100 ssd_iops_6000 /dev/vdb 200 ssd_iops_6000
+alven.yw.chiang@foxconn.com BIAPP lh-cdc401-private-compute-20 2018-03-06 1 10.134.171.200 4 16 win2012r2x64_ENG_patched /dev/vda 100 ssd_iops_6000 /dev/vdb 50 ssd_iops_6000
+alven.yw.chiang@foxconn.com MOMAPPWeb02 lh-cdc401-private-compute-20 2018-03-07 1 10.134.171.184 8 16 win2012r2x64_ENG_patched /dev/vda 150 ssd_iops_6000 /dev/vdb 50 ssd_iops_6000
+alven.yw.chiang@foxconn.com momsty lh-cdc401-private-compute-14 2018-03-07 1 10.134.171.207 8 32 redhat-6.9-update /dev/vda 100 ssd_iops_6000 /dev/vdb 500 ssd_iops_6000
+alven.yw.chiang@foxconn.com momdb2 lh-cdc401-private-compute-14 2018-03-07 1 10.134.171.206 8 32 redhat-6.9-update /dev/vda 100 ssd_iops_6000 /dev/vdb 410 ssd_iops_6000
+alven.yw.chiang@foxconn.com ESOPAPP lh-cdc401-private-compute-14 2018-03-07 1 10.134.171.203 2 8 win2012r2x64_ENG_patched /dev/vda 100 ssd_iops_2000 /dev/vdb 50 ssd_iops_2000
+alven.yw.chiang@foxconn.com G13_Win2012Server-2 lh-cdc401-private-compute-14 2018-03-07 1 10.134.171.204 2 8 win2012r2x64_ENG_patched /dev/vda 100 ssd_iops_2000 /dev/vdb 50 ssd_iops_2000
+alven.yw.chiang@foxconn.com G16_Win2012Server-2 lh-cdc401-private-compute-24 2018-03-08 1 10.134.171.218 8 32 win2012r2x64_ENG_patched /dev/vda 100 ssd_iops_4000 /dev/vdb 200 ssd_iops_4000
+alven.yw.chiang@foxconn.com G14_rhel6.9_Server lh-cdc401-private-compute-20 2018-03-09 1 10.134.171.212 8 32 rhel-server-6.9-x86_64-dvd /dev/vda 100 ssd_iops_6000 /dev/vdb 900 ssd_iops_6000
+alven.yw.chiang@foxconn.com WinCCDBSTY lh-cdc401-private-compute-14 2018-03-09 1 10.134.171.202 4 16 win2012r2x64_ENG_patched /dev/vda 100 ssd_iops_6000 /dev/vdb 1100 ssd_iops_6000
+alven.yw.chiang@foxconn.com fitqmssty lh-cdc401-private-compute-14 2018-03-19 1 10.134.236.58 8 16 rhel-server-6.9-x86_64-dvd /dev/vda 100 ssd_iops_6000 /dev/vdb 900 ssd_iops_6000
+alven.yw.chiang@foxconn.com WinCCDBPrimary lh-cdc401-private-compute-20 2018-05-21 1 10.134.171.201 16 32 win2012r2x64_ENG_patched /dev/vda 200 ssd_iops_6000 /dev/vdb 900 ssd_iops_6000
+alven.yw.chiang@foxconn.com APSAPP lh-cdc401-private-compute-15 2018-06-27 1 10.134.171.197 8 32 win2012r2x64_ENG_patched /dev/vda 100 ssd_iops_6000 /dev/vdb 50 ssd_iops_6000
+hzlh-fatdc@mail.foxconn.com WebServer_win2012r2 lh-cdc401-private-compute-18 2017-07-06 1 10.134.171.185 16 32 cn_windows_server_2012_r2_x64_standard_50G /dev/vda 200 NULL /dev/vdb 2048 iops_150
+hzlh-fatdc@mail.foxconn.com Fii_Cloud_C01 lh-cdc401-private-compute-52 2018-05-26 1 10.134.236.207 4 16 en_windows_server_2012_r2_x64_standard_50G /dev/vda 100 iops_600 /dev/vdb 500 iops_600
+hzlh-fatdc@mail.foxconn.com MaxIOT lh-cdc401-private-compute-1 2018-06-23 1 10.134.236.95 8 16 CentOS7-1611-With_SSH_Login /dev/vda 50 iops_600 /dev/vdb 200 iops_600
+hzlh-fatdc@mail.foxconn.com CyberSphereServer lh-cdc401-private-compute-63 2018-08-01 1 10.134.236.75 16 64 CentOS7-1611-Tai /dev/vda 100 ssd_iops_3000 /dev/vdb 2000 ssd_iops_3000
+hzhn-mis-sev3@mail.foxconn.com LH-DCRFID-DB-P1 lh-cdc401-private-compute-26 2018-07-14 1 10.134.224.234 16 64 rhel-server-6.9-x86_64-dvd /dev/vda 50 iops_600 /dev/vdb 1024 iops_600
+hzhn-mis-sev3@mail.foxconn.com lh-dc-lb-p1 lh-cdc401-private-compute-26 2018-07-14 1 10.134.224.237 4 8 CentOS7.4 /dev/vda 100 iops_600 /dev/vdb 100 iops_600
+hzhn-mis-sev3@mail.foxconn.com LH-DCRFID-WEB-P1 lh-cdc401-private-compute-20 2018-07-17 1 10.134.228.70 8 24 RHEL6.9 /dev/vda 50 iops_600 /dev/vdb 300 iops_600
+hzhn-mis-sev3@mail.foxconn.com LH-DCSFC-DB-P2 lh-cdc401-private-compute-20 2018-07-17 1 10.134.224.252 16 64 RHEL6.9 /dev/vda 50 iops_600 /dev/vdb 1024 iops_600
+hzhn-mis-sev3@mail.foxconn.com LH-DCRFID-WEB-P2 lh-cdc401-private-compute-19 2018-07-17 1 10.134.228.71 8 24 RHEL6.9 /dev/vda 50 iops_600 /dev/vdb 300 iops_600
+hzhn-mis-sev3@mail.foxconn.com LH-DC-LB-P2 lh-cdc401-private-compute-19 2018-07-17 1 10.134.224.77 4 8 CentOS7.4 /dev/vda 100 iops_600 /dev/vdb 100 iops_600
+hzhn-mis-sev3@mail.foxconn.com LH-DC-MONGODB-P1 lh-cdc401-private-compute-20 2018-07-18 1 10.134.226.3 16 32 RHEL6.9 /dev/vda 100 iops_600 /dev/vdb 1024 iops_600
+hzhn-mis-sev3@mail.foxconn.com LH-DCRFID-DB-P2 lh-cdc401-private-compute-20 2018-07-18 1 10.134.226.4 16 64 RHEL6.9 /dev/vda 50 iops_600 /dev/vdb 1024 iops_600
+hzhn-mis-sev3@mail.foxconn.com LH-DC-MONGODB-P2 lh-cdc401-private-compute-24 2018-07-18 1 10.134.226.5 16 32 RHEL6.9 /dev/vda 100 iops_600 /dev/vdb 1024 iops_600
+hzhn-mis-sev3@mail.foxconn.com LH-DCSFC-DB-P1 lh-cdc401-private-compute-24 2018-07-18 1 10.134.226.6 16 64 RHEL6.9 /dev/vda 50 iops_600 /dev/vdb 1024 iops_600
+hzhn-mis-sev3@mail.foxconn.com LH-DC-MONGODB-P3 lh-cdc401-private-compute-19 2018-07-18 1 10.134.226.7 16 32 RHEL6.9 /dev/vda 100 iops_600 /dev/vdb 1024 iops_600
+hzhn-mis-sev3@mail.foxconn.com LH-DCSFC-WEB-P1 lh-cdc401-private-compute-20 2018-07-26 1 10.134.226.13 8 16 WindowsServer2008R2_Enterprise_TW /dev/vda 80 iops_600 /dev/vdb 200 iops_600
+hzhn-mis-sev3@mail.foxconn.com LH-DCSFC-WEB-P2 lh-cdc401-private-compute-61 2018-07-26 1 10.134.226.11 8 16 WindowsServer2008R2_Enterprise_TW /dev/vda 100 iops_600 /dev/vdb 200 iops_600
+jason.yy.wang@mail.foxconn.com SFCserver01 lh-cdc401-private-compute-9 2018-05-24 1 10.134.171.130 16 64 en_windows_server_2012_r2_x64_standard_50G /dev/vda 50 ssd_iops_3000 /dev/vdb 1000 ssd_iops_3000
+jason.yy.wang@mail.foxconn.com SFCserver02 lh-cdc401-private-compute-4 2018-05-24 1 10.134.171.118 16 64 en_windows_server_2012_r2_x64_standard_50G /dev/vda 50 ssd_iops_3000 /dev/vdb 1000 ssd_iops_3000
+jason.yy.wang@mail.foxconn.com Logserver01 lh-cdc401-private-compute-53 2018-05-24 1 10.134.236.203 16 64 en_windows_server_2012_r2_x64_standard_50G /dev/vda 100 ssd_iops_3000 /dev/vdb 10000 iops_600
+san-chao.zhang@mail.foxconn.com gatlabUbuntu lh-cdc401-private-compute-56 2018-04-28 1 10.134.236.113 4 8 ubuntu-16.04-x86-64 /dev/vda 200 iops_150 /dev/vdb 300 iops_600
+san-chao.zhang@mail.foxconn.com new_machine_one lh-cdc401-private-compute-19 2018-08-20 1 10.134.226.77 12 23 WindowsServer2012R2_DataCenter_ENG /dev/vda 200 iops_600 /dev/vdb 600 iops_600
+san-chao.zhang@mail.foxconn.com new_machine_two lh-cdc401-private-compute-10 2018-08-20 1 10.134.226.78 12 23 WindowsServer2012R2_DataCenter_ENG /dev/vda 200 iops_600 /dev/vdb 600 iops_600
+nsd-security@mail.foxconn.com VM lh-cdc401-private-compute-19 2018-10-15 1 10.134.225.34 8 16 WindowsServer2016_Standard_ENG /dev/vda 240 iops_300 /dev/vdb 1000 iops_300
+fiicloud.dev@foxconn.com SQL lh-cdc401-private-compute-15 2018-10-30 1 10.134.171.168 2 4 WindowsServer2016_DataCenter_ENG /dev/vda 100 ssd_iops_1000 /dev/vdb 200 ssd_iops_1000
+fiicloud.dev@foxconn.com LBS01 lh-cdc401-private-compute-9 2018-10-30 1 192.168.100.5 2 4 CentOS-7-x86_64-GenericCloud-1708(7.4) /dev/vda 100 ssd_iops_1000 /dev/vdb 200 ssd_iops_1000
+fiicloud.dev@foxconn.com LBS02 lh-cdc401-private-compute-6 2018-10-30 1 192.168.100.4 2 4 CentOS-7-x86_64-GenericCloud-1708(7.4) /dev/vda 100 ssd_iops_1000 /dev/vdb 200 ssd_iops_1000
+rex.rt.huang@fii-foxconn.com BlockChain1 lh-cdc401-private-compute-5 2018-10-13 1 10.134.225.25 4 8 CentOS7.4 /dev/vda 100 ssd_iops_1000 /dev/vdb 100 ssd_iops_1000
+rex.rt.huang@fii-foxconn.com BlockChain2 lh-cdc401-private-compute-25 2018-10-13 1 10.134.225.26 4 8 CentOS7.4 /dev/vda 100 ssd_iops_1000 /dev/vdb 100 ssd_iops_1000
+rex.rt.huang@fii-foxconn.com Camera1 lh-cdc401-private-compute-15 2018-10-13 1 10.134.225.27 4 8 WindowsServer2012R2_DataCenter_ENG /dev/vda 100 ssd_iops_1000 /dev/vdb 100 ssd_iops_1000
+rex.rt.huang@fii-foxconn.com Camera2 lh-cdc401-private-compute-26 2018-10-13 1 10.134.225.28 8 16 CentOS7.4 /dev/vda 100 ssd_iops_1000 /dev/vdb 500 ssd_iops_1000
+rex.rt.huang@fii-foxconn.com Dingo lh-cdc401-private-compute-20 2018-10-13 1 10.134.225.29 8 16 CentOS7.4 /dev/vda 100 ssd_iops_1000 /dev/vdb 200 ssd_iops_1000
+fh.fh.yang@foxconn.com CentOS7 lh-cdc401-private-compute-7 2017-07-10 1 10.134.171.117 1 2 CentOS_7.0_1406_x86_64_infra_30G /dev/vda 100 NULL
+fh.fh.yang@foxconn.com Win2012_64bit_en lh-cdc401-private-compute-18 2017-08-04 1 10.134.171.211 8 8 en_windows_server_2012_r2_x64_standard_50G /dev/vda 100 NULL /dev/vdb 500 iops_150
+fh.fh.yang@foxconn.com foxrobot001 lh-cdc401-private-compute-23 2017-08-22 1 10.134.171.209 8 8 LH-rhel-cloud2 /dev/vda 100 NULL /dev/vdb 500 iops_150
+zi-gang.jiang@foxconn.com Virtual3 lh-cdc401-private-compute-26 2018-10-17 1 10.134.225.39 12 23 WindowsServer2012R2_DataCenter_ENG /dev/vda 100 iops_300 /dev/vdb 500 iops_300
+zi-gang.jiang@foxconn.com NEW_Virtual2 lh-cdc401-private-compute-23 2018-11-01 1 10.134.225.38 16 32 WindowsServer2012R2_DataCenter_ENG /dev/vda 100 ssd_iops_1000 /dev/vdb 1000 ssd_iops_1000
+zi-gang.jiang@foxconn.com NEW_Virtual1 lh-cdc401-private-compute-25 2018-11-01 1 10.134.225.37 16 32 WindowsServer2012R2_DataCenter_ENG /dev/vda 100 ssd_iops_1000 /dev/vdb 1000 ssd_iops_1000
+ehs-project-vn@mail.foxconn.com VM1 lh-cdc401-private-compute-12 2018-08-27 1 10.134.226.100 16 32 WindowsServer2012R2_DataCenter_ENG /dev/vda 100 iops_300 /dev/vdb 300 iops_300
+ehs-project-vn@mail.foxconn.com VM2 lh-cdc401-private-compute-5 2018-08-27 1 10.134.226.101 16 32 WindowsServer2012R2_DataCenter_ENG /dev/vda 100 iops_300 /dev/vdb 300 iops_300
+ehs-project-vn@mail.foxconn.com VM3 lh-cdc401-private-compute-6 2018-08-27 1 10.134.226.102 8 16 WindowsServer2012R2_DataCenter_ENG /dev/vda 100 iops_300 /dev/vdb 500 iops_300
+ehs-project-vn@mail.foxconn.com VM4 lh-cdc401-private-compute-6 2018-09-07 1 10.134.228.83 16 32 WindowsServer2012R2_DataCenter_ENG /dev/vda 100 ssd_iops_1000 /dev/vdb 300 ssd_iops_1000
+ehs-project-vn@mail.foxconn.com VM5 lh-cdc401-private-compute-10 2018-09-07 1 10.134.226.123 16 32 WindowsServer2012R2_DataCenter_ENG /dev/vda 100 ssd_iops_1000 /dev/vdb 300 ssd_iops_1000
+ehs-project-vn@mail.foxconn.com VM6 lh-cdc401-private-compute-5 2018-09-07 1 10.134.228.84 8 16 WindowsServer2012R2_DataCenter_ENG /dev/vda 100 ssd_iops_1000 /dev/vdb 500 ssd_iops_1000
+marco.yc.wu@fii-foxconn.com API_one_win lh-cdc401-private-compute-6 2018-09-05 1 10.134.226.117 2 8 WindowsServer2012R2_DataCenter_ENG /dev/vda 50 iops_600 /dev/vdb 50 iops_600
+marco.yc.wu@fii-foxconn.com API_two_win lh-cdc401-private-compute-6 2018-09-05 1 10.134.226.118 2 8 WindowsServer2012R2_DataCenter_ENG /dev/vda 50 iops_600 /dev/vdb 50 iops_600
+marco.yc.wu@fii-foxconn.com API_three_win lh-cdc401-private-compute-5 2018-09-05 1 10.134.226.119 2 8 WindowsServer2012R2_DataCenter_ENG /dev/vda 50 iops_600 /dev/vdb 50 iops_600
+marco.yc.wu@fii-foxconn.com API_four_win lh-cdc401-private-compute-6 2018-09-05 1 10.134.226.120 2 8 WindowsServer2012R2_DataCenter_ENG /dev/vda 50 iops_600 /dev/vdb 50 iops_600
+marco.yc.wu@fii-foxconn.com API1 lh-cdc401-private-compute-10 2018-09-05 1 10.134.226.121 4 8 Ubuntu16.04 /dev/vda 50 iops_600 /dev/vdb 100 iops_600
+marco.yc.wu@fii-foxconn.com API2 lh-cdc401-private-compute-19 2018-09-05 1 10.134.226.122 4 8 Ubuntu16.04 /dev/vda 50 iops_600 /dev/vdb 100 iops_600
+anna.sq.yang@fii-foxconn.com Dingo lh-cdc401-private-compute-23 2018-03-26 1 10.134.236.78 8 16 fixo-cloud-image-centos7-1611-30G-Development /dev/vda 150 iops_2400 /dev/vdb 500 ssd_iops_3000
+anna.sq.yang@fii-foxconn.com iDS lh-cdc401-private-compute-11 2018-03-26 1 10.134.236.79 8 16 fixo-cloud-image-centos7-1611-30G-Development /dev/vda 150 iops_2400 /dev/vdb 500 ssd_iops_3000
+ben@foxconn.com dbbackup1 lh-cdc401-private-compute-18 2017-04-19 1 10.134.171.93 8 32 en_windows_server_2012_r2_x64_standard_50G /dev/vda 100 iops_150 /dev/vdb 1024 iops_150
+ben@foxconn.com dbbackup2 lh-cdc401-private-compute-54 2017-04-19 1 10.134.171.94 8 32 en_windows_server_2012_r2_x64_standard_50G /dev/vda 100 iops_150 /dev/vdb 1024 iops_150
+ben@foxconn.com Veritas1 lh-cdc401-private-compute-8 2017-04-25 1 10.134.171.101 4 8 en_windows_server_2012_r2_x64_standard_50G /dev/vda 100 iops_150 /dev/vdb 1900 iops_150
+ben@foxconn.com Veritas3 lh-cdc401-private-compute-17 2017-04-25 1 10.134.171.103 4 8 en_windows_server_2012_r2_x64_standard_50G /dev/vda 100 iops_150 /dev/vdb 1900 iops_150
+ben@foxconn.com Veritas2 lh-cdc401-private-compute-55 2017-05-08 1 10.134.171.102 4 8 en_windows_server_2008_r2_x64_enterprise_50G /dev/vda 100 iops_150 /dev/vdb 1900 iops_150
+ben@foxconn.com Hadoop-1 lh-cdc401-private-compute-15 2017-06-21 4 10.134.236.213 8 128 CentOS6.8-Base-Server-x86_64 /dev/vda 100 NULL /dev/vdb 2096 iops_150
+ben@foxconn.com Hadoop-10 lh-cdc401-private-compute-52 2018-03-22 1 10.134.236.59 32 128 CentOS6.8-Base-Server-x86_64 /dev/vda 100 ssd_iops_6000 /dev/vdb 2096 ssd_iops_6000
+ben@foxconn.com Hadoop-11 lh-cdc401-private-compute-23 2018-03-22 1 10.134.236.60 32 128 CentOS6.8-Base-Server-x86_64 /dev/vda 100 ssd_iops_6000 /dev/vdb 2096 ssd_iops_6000
+ben@foxconn.com Hadoop-12 lh-cdc401-private-compute-11 2018-03-22 1 10.134.236.61 32 128 CentOS6.8-Base-Server-x86_64 /dev/vda 100 ssd_iops_6000 /dev/vdb 2096 ssd_iops_6000
+ben@foxconn.com Hadoop-13 lh-cdc401-private-compute-51 2018-03-22 1 10.134.236.62 32 128 CentOS6.8-Base-Server-x86_64 /dev/vda 100 ssd_iops_6000 /dev/vdb 2096 ssd_iops_6000
+ben@foxconn.com Hadoop-14 lh-cdc401-private-compute-32 2018-03-22 1 10.134.236.64 32 128 CentOS6.8-Base-Server-x86_64 /dev/vda 100 ssd_iops_6000 /dev/vdb 2096 ssd_iops_6000
+ben@foxconn.com Hadoop-15 lh-cdc401-private-compute-4 2018-03-22 1 10.134.236.66 32 128 CentOS6.8-Base-Server-x86_64 /dev/vda 100 ssd_iops_6000 /dev/vdb 2096 ssd_iops_6000
+ben@foxconn.com Hadoop-16 lh-cdc401-private-compute-22 2018-03-22 1 10.134.236.67 32 128 CentOS6.8-Base-Server-x86_64 /dev/vda 100 ssd_iops_6000 /dev/vdb 2096 ssd_iops_6000
+ben@foxconn.com Hadoop-17 lh-cdc401-private-compute-2 2018-03-22 1 10.134.236.68 32 128 CentOS6.8-Base-Server-x86_64 /dev/vda 100 ssd_iops_6000 /dev/vdb 2096 ssd_iops_6000
+ben@foxconn.com Hadoop-18 lh-cdc401-private-compute-18 2018-03-22 1 10.134.236.69 32 128 CentOS6.8-Base-Server-x86_64 /dev/vda 100 ssd_iops_6000 /dev/vdb 2096 ssd_iops_6000
+ben@foxconn.com Hadoop-19 lh-cdc401-private-compute-1 2018-03-22 1 10.134.236.70 32 128 CentOS6.8-Base-Server-x86_64 /dev/vda 100 ssd_iops_6000 /dev/vdb 2096 ssd_iops_6000
+ben@foxconn.com webbackup1 lh-cdc401-private-compute-24 2018-04-02 1 10.134.171.95 4 16 en_windows_server_2012_r2_x64_standard_50G /dev/vda 100 ssd_iops_3000 /dev/vdb 1024 ssd_iops_3000
+ben@foxconn.com Hadoop-6 lh-cdc401-private-compute-13 2018-04-09 1 10.134.171.163 32 128 CentOS6.8-Base-Server-x86_64 /dev/vda 100 ssd_iops_6000 /dev/vdb 2096 ssd_iops_6000
+ben@foxconn.com Hadoop-3 lh-cdc401-private-compute-13 2018-04-09 1 10.134.171.161 32 128 CentOS6.8-Base-Server-x86_64 /dev/vda 100 ssd_iops_6000 /dev/vdb 2096 ssd_iops_6000
+ben@foxconn.com Hadoop-20 lh-cdc401-private-compute-54 2018-04-09 1 10.134.171.158 4 4 CentOS6.8-Base-Server-x86_64 /dev/vda 100 ssd_iops_6000
+ben@foxconn.com Hadoop-21 lh-cdc401-private-compute-54 2018-04-09 1 10.134.171.159 4 4 CentOS6.8-Base-Server-x86_64 /dev/vda 100 ssd_iops_6000
+ben@foxconn.com Hadoop-22 lh-cdc401-private-compute-8 2018-04-09 1 10.134.171.160 4 4 CentOS6.8-Base-Server-x86_64 /dev/vda 100 ssd_iops_6000
+ben@foxconn.com Hadoop-23 lh-cdc401-private-compute-8 2018-04-09 1 10.134.171.162 4 4 CentOS6.8-Base-Server-x86_64 /dev/vda 100 ssd_iops_6000
+ben@foxconn.com new_Hadoop-2 lh-cdc401-private-compute-8 2018-04-11 1 10.134.236.241 32 128 CentOS6.8-Base-Server-x86_64 /dev/vda 100 ssd_iops_6000 /dev/vdb 2096 ssd_iops_6000
+ben@foxconn.com new_Hadoop-5 lh-cdc401-private-compute-1 2018-04-11 1 10.134.171.139 32 128 CentOS6.8-Base-Server-x86_64 /dev/vda 100 ssd_iops_6000 /dev/vdb 2096 ssd_iops_6000
+ben@foxconn.com new_Hadoop-4 lh-cdc401-private-compute-8 2018-04-11 1 10.134.171.61 32 128 CentOS6.8-Base-Server-x86_64 /dev/vda 100 ssd_iops_6000 /dev/vdb 2096 ssd_iops_6000
+ben@foxconn.com Hadoop-24 lh-cdc401-private-compute-51 2018-04-19 1 10.134.236.200 32 128 CentOS6.8-Base-Server-x86_64 /dev/vda 100 ssd_iops_6000 /dev/vdb 2096 ssd_iops_6000
+ben@foxconn.com test lh-cdc401-private-compute-45 2018-07-10 1 10.134.171.106 2 2 cn_windows_server_2012_r2_x64_datacenter_50G /dev/vda 50 iops_150
+allen.ck.wei@foxconn.com LH-cloud lh-cdc401-private-compute-8 2017-08-11 1 10.134.171.122 2 4 LH-2008-cloud /dev/vda 30 NULL
+fiicloud.ops@foxconn.com FiXo-Deploy lh-cdc401-private-compute-12 2018-07-16 1 10.134.224.247 4 8 CentOS7.2_1511_X86_64 /dev/vda 40 ssd_iops_3000
+fiicloud.ops@foxconn.com FiXo-Deploy-DB lh-cdc401-private-compute-57 2018-07-18 1 10.134.226.8 8 16 RDS_Template_5.6 /dev/vda 50 iops_600 /dev/vdb 40 iops_600
+fiicloud.ops@foxconn.com LBS_test lh-cdc401-private-compute-12 2018-08-14 1 10.134.226.75 4 4 WindowsServer2012R2_Standard_CN /dev/vda 50 iops_600
+fiicloud.ops@foxconn.com FiBoTest lh-cdc401-private-compute-26 2018-10-26 1 10.134.225.56 8 16 centos-7.3_S3cmd /dev/vda 50 iops_300
+fiicloud.ops@foxconn.com SpringBoard lh-cdc401-private-compute-5 2018-11-15 1 10.134.171.121 4 8 WindowsServer2012R2_DataCenter_CN /dev/vda 100 ssd_iops_1000 /dev/vdb 200 ssd_iops_1000
+fii.test.zy.sub@foxconn.com fii_test_zy_v4m8_50 lh-cdc401-private-compute-17 2018-07-12 1 10.134.224.232 4 8 win2012r2x64_ENG_patched /dev/vda 50 ssd_iops_3000 /dev/vdb 60 ssd_iops_3000
+mao-chun.liu@mail.foxconn.com AP1 lh-cdc401-private-compute-32 2018-01-30 1 10.134.171.67 8 8 win2k8r2-with-cloudbase-demo /dev/vda 150 iops_150 /dev/vdb 100 iops_150
+mao-chun.liu@mail.foxconn.com FTP1 lh-cdc401-private-compute-32 2018-01-31 1 10.134.171.91 8 8 WinServer2008R2_patched /dev/vda 150 iops_150 /dev/vdb 2048 iops_150
+steven.yh.lee@mail.foxconn.com SplunkLogServer_180722 lh-cdc401-private-compute-60 2018-07-22 1 10.134.171.140 8 32 fixo-cloud-image-centos7-1611-30G-Development /dev/vda 300 iops_600
+ces-it-infra@mail.foxconn.com IT-FileServer-OS_ContOS7 lh-cdc401-private-compute-18 2017-07-20 1 10.134.171.182 4 8 CentOS_7.0_1406_x86_64_infra_30G /dev/vda 500 NULL
+ces-it-infra@mail.foxconn.com DB_RHEL65-2 lh-cdc401-private-compute-3 2017-10-23 1 10.134.171.165 4 8 redhat-6.9-update /dev/vda 200 iops_600 /dev/vdb 500 iops_600
+ces-it-infra@mail.foxconn.com ISC_IIS_WebServer4 lh-cdc401-private-compute-24 2017-10-23 1 10.134.171.166 4 8 win2012r2x64_ENG_patched /dev/vda 200 iops_600 /dev/vdb 500 iops_600
+ces-it-infra@mail.foxconn.com ISC_IIS_WebServer5 lh-cdc401-private-compute-16 2017-10-23 1 10.134.171.172 4 8 win2012r2x64_ENG_patched /dev/vda 200 iops_600 /dev/vdb 500 iops_600
+ces-it-infra@mail.foxconn.com WSUS_Server-1 lh-cdc401-private-compute-56 2017-11-07 1 10.134.171.220 16 16 win2012r2x64_ENG_patched /dev/vda 200 iops_600 /dev/vdb 1024 iops_600
+ces-it-infra@mail.foxconn.com WSUS_Server-2 lh-cdc401-private-compute-8 2017-11-07 1 10.134.171.221 16 16 win2012r2x64_ENG_patched /dev/vda 200 iops_600 /dev/vdb 1024 iops_600
+ces-it-infra@mail.foxconn.com HR_WebServer lh-cdc401-private-compute-8 2017-11-14 3 10.134.171.226 8 8 win2012r2x64_ENG_patched /dev/vda 200 iops_600 /dev/vdb 500 iops_600
+ces-it-infra@mail.foxconn.com HR_DBServer1 lh-cdc401-private-compute-23 2017-11-15 3 10.134.171.238 8 8 new-6.5-gui-v2 /dev/vda 120 iops_600 /dev/vdb 500 iops_600
+ces-it-infra@mail.foxconn.com HR_DBServer2 lh-cdc401-private-compute-3 2017-11-15 3 10.134.171.239 8 8 new-6.5-gui-v2 /dev/vda 120 iops_600 /dev/vdb 500 iops_600
+ces-it-infra@mail.foxconn.com LogServer lh-cdc401-private-compute-18 2018-01-04 1 10.134.171.99 4 16 win2012r2x64_ENG_patched /dev/vda 100 iops_150 /dev/vdb 300 iops_150
+ces-it-infra@mail.foxconn.com ISC_IIS_WebServer1 lh-cdc401-private-compute-9 2018-01-08 1 10.134.171.114 4 8 win2012r2x64_ENG_patched /dev/vda 100 iops_150
+ces-it-infra@mail.foxconn.com ISC_IIS_WebServer2 lh-cdc401-private-compute-9 2018-01-08 1 10.134.171.115 4 8 win2012r2x64_ENG_patched /dev/vda 100 iops_150
+ces-it-infra@mail.foxconn.com ISC_IIS_WebServer3 lh-cdc401-private-compute-18 2018-01-08 1 10.134.171.120 4 8 win2012r2x64_ENG_patched /dev/vda 100 iops_150
+ces-it-infra@mail.foxconn.com Oracle_DB_Win2012 lh-cdc401-private-compute-16 2018-02-06 1 10.134.171.33 48 128 NULL /dev/vda 150 ssd_iops_2400 /dev/vdb 1024 ssd_iops_2400
+ces-it-infra@mail.foxconn.com Oracle_DB_Win2012_Backup lh-cdc401-private-compute-25 2018-04-12 1 10.134.236.93 48 128 win2012r2x64_ENG_patched /dev/vda 150 ssd_iops_2400 /dev/vdb 1024 ssd_iops_2400
+ces-it-infra@mail.foxconn.com RHEL57_Server1 lh-cdc401-private-compute-1 2018-06-21 1 10.134.171.222 8 16 rhel-server-5.7-x86_64-dvd /dev/vda 200 iops_600 /dev/vdb 300 iops_600
+ces-it-infra@mail.foxconn.com RHEL57_Server2 lh-cdc401-private-compute-11 2018-06-21 1 10.134.171.223 8 16 rhel-server-5.7-x86_64-dvd /dev/vda 200 iops_600 /dev/vdb 1024 iops_600
+li-xia.peng@foxconn.com SSO_MySQL_DB lh-cdc401-private-compute-3 2017-12-25 1 10.134.171.63 2 4 ubuntu-16.04-x86-64 /dev/vda 50 iops_150 /dev/vdb 200 iops_150
+li-xia.peng@foxconn.com SSO_Web_Server lh-cdc401-private-compute-8 2017-12-25 1 10.134.171.64 2 8 tw_windows_server_2008_r2_x64_enterprise_50G /dev/vda 100 iops_150 /dev/vdb 300 iops_150
+li-xia.peng@foxconn.com FIIWebServer lh-cdc401-private-compute-10 2018-07-25 1 10.134.226.41 2 4 en_windows_server_2012_r2_x64_datacenter-50G /dev/vda 100 iops_600 /dev/vdb 50 iops_600
+ie-tech.committee@mail.foxconn.com WinServer2012-EN lh-cdc401-private-compute-25 2018-03-29 1 10.134.236.92 4 8 en_windows_server_2012_r2_x64_standard_50G /dev/vda 50 iops_150 /dev/vdb 800 iops_150
+bentley.b.yang@mail.foxconn.com new_PMMSDB lh-cdc401-private-compute-19 2018-08-28 1 10.134.226.20 16 32 WindowsServer2012R2_DataCenter_ENG /dev/vda 100 ssd_iops_3000 /dev/vdb 300 ssd_iops_3000 /dev/vdc 500 iops_600
+nsd-nt-admin@mail.foxconn.com face_detection_mgt_server lh-cdc401-private-compute-32 2017-09-09 1 10.134.171.241 4 8 en_windows_server_2012_r2_x64_standard_50G /dev/vda 60 NULL /dev/vdb 500 iops_150
+nsd-nt-admin@mail.foxconn.com VM1 lh-cdc401-private-compute-45 2018-04-02 3 10.134.236.183 8 32 ubuntu-16.04-x86-64 /dev/vda 100 ssd_iops_3000 /dev/vdb 300 ssd_iops_3000
+nsd-nt-admin@mail.foxconn.com VM2 lh-cdc401-private-compute-24 2018-04-02 3 10.134.236.184 8 32 ubuntu-16.04-x86-64 /dev/vda 100 ssd_iops_3000 /dev/vdb 300 ssd_iops_3000
+nsd-nt-admin@mail.foxconn.com VM3 lh-cdc401-private-compute-55 2018-04-02 3 10.134.236.185 8 32 ubuntu-16.04-x86-64 /dev/vda 100 ssd_iops_3000 /dev/vdb 300 ssd_iops_3000
+nsd-nt-admin@mail.foxconn.com VM4 lh-cdc401-private-compute-54 2018-04-02 3 10.134.236.186 8 32 ubuntu-16.04-x86-64 /dev/vda 100 ssd_iops_3000 /dev/vdb 300 ssd_iops_3000
+nsd-nt-admin@mail.foxconn.com VM5 lh-cdc401-private-compute-18 2018-04-02 3 10.134.236.187 8 32 ubuntu-16.04-x86-64 /dev/vda 100 ssd_iops_3000 /dev/vdb 300 ssd_iops_3000
+nsd-nt-admin@mail.foxconn.com LH-Face-backup-1 lh-cdc401-private-compute-24 2018-06-05 1 10.134.224.115 4 8 en_windows_server_2012_r2_x64_standard_50G /dev/vda 100 iops_600 /dev/vdb 1000 iops_600
+nsd-nt-admin@mail.foxconn.com LH-Face-2 lh-cdc401-private-compute-52 2018-06-06 1 10.134.224.120 8 16 en_windows_server_2012_r2_x64_standard_50G /dev/vda 100 iops_600 /dev/vdb 500 iops_600
+nsd-nt-admin@mail.foxconn.com LH-Face-3 lh-cdc401-private-compute-43 2018-06-06 1 10.134.224.121 8 16 en_windows_server_2012_r2_x64_standard_50G /dev/vda 100 iops_600 /dev/vdb 500 iops_600
+nsd-nt-admin@mail.foxconn.com LH-Face-backup-2 lh-cdc401-private-compute-10 2018-07-29 1 10.134.171.244 4 8 en_windows_server_2012_r2_x64_standard_50G /dev/vda 100 iops_600 /dev/vdb 1000 iops_600
+nsd-nt-admin@mail.foxconn.com VM6 lh-cdc401-private-compute-6 2018-07-30 1 10.134.226.57 8 16 cn_windows_server_2012_r2_x64_datacenter_50G /dev/vda 100 iops_600 /dev/vdb 1000 iops_600
+hzlh-mis-lu.tm@mail.foxconn.com VM1 lh-cdc401-private-compute-19 2018-11-08 1 10.134.225.114 4 8 WindowsServer2008R2_Enterprise_CN /dev/vda 100 iops_300 /dev/vdb 200 iops_300
+hzlh-mis-lu.tm@mail.foxconn.com VM2 lh-cdc401-private-compute-23 2018-11-08 4 NULL 4 8 RHEL6.5 /dev/vda 100 iops_300 /dev/vdb 650 iops_300
+hzlh-mis-lu.tm@mail.foxconn.com VM2_1115 lh-cdc401-private-compute-19 2018-11-15 1 10.134.225.113 4 8 RHEL6.5 /dev/vda 100 iops_300 /dev/vdb 650 iops_300
+epd5-soft@mail.foxconn.com epd5-rhel6.5-DB lh-cdc401-private-compute-32 2017-03-21 1 10.134.171.45 8 32 rehl6.5 /dev/vda 100 iops-150 /dev/vdb 500 iops-150
+epd5-soft@mail.foxconn.com epd5-rhel65-STANDB lh-cdc401-private-compute-55 2017-07-04 1 10.134.171.46 8 16 rehl6.5 /dev/vda 100 iops-150 /dev/vdb 700 iops-150
+epd5-soft@mail.foxconn.com WebServer lh-cdc401-private-compute-15 2018-02-07 1 10.134.171.49 8 16 WinServer2008R2_patched /dev/vda 150 ssd_iops_600 /dev/vdb 500 ssd_iops_600
+epd5-soft@mail.foxconn.com 2008R2_AP2_20180714_2 lh-cdc401-private-compute-26 2018-07-14 1 10.134.171.44 8 16 tw_windows_server_2008_r2_x64_enterprise_50G /dev/vda 200 iops_150 /dev/vdb 100 iops_150
+epd5-soft@mail.foxconn.com 2008R2_PIC_backup lh-cdc401-private-compute-56 2018-07-24 1 10.134.171.43 8 16 tw_windows_server_2008_r2_x64_enterprise_50G /dev/vda 200 iops_150 /dev/vdb 2000 iops_150
+ces-it-pma@mail.foxconn.com redmine2 lh-cdc401-private-compute-24 2018-03-27 1 10.134.236.81 4 8 ubuntu-16.04-server-cloudimg-amd64 /dev/vda 50 iops_2400
+ces-it-pma@mail.foxconn.com redmineDB2 lh-cdc401-private-compute-54 2018-03-27 1 10.134.236.82 4 8 CentOS_7.2_1511_x86_64_DB_30G /dev/vda 40 iops_2400 /dev/vdb 40 ssd_iops_6000
+ces-it-pma@mail.foxconn.com redmineDB3 lh-cdc401-private-compute-4 2018-03-27 1 10.134.236.83 4 8 CentOS_7.2_1511_x86_64_DB_30G /dev/vda 40 iops_2400 /dev/vdb 40 ssd_iops_6000
+ces-it-pma@mail.foxconn.com redmineDB1 lh-cdc401-private-compute-51 2018-03-27 1 10.134.236.84 4 8 CentOS_7.2_1511_x86_64_DB_30G /dev/vda 40 iops_2400 /dev/vdb 40 ssd_iops_6000
+ces-it-pma@mail.foxconn.com redmine1 lh-cdc401-private-compute-25 2018-03-27 1 10.134.236.85 4 8 ubuntu-16.04-server-cloudimg-amd64 /dev/vda 50 iops_2400
+ces-it-pma@mail.foxconn.com fileserver1 lh-cdc401-private-compute-55 2018-03-29 1 10.134.236.86 4 8 CentOS_7.2_1511_x86_64_DB_30G /dev/vda 40 iops_2400 /dev/vdb 300 ssd_iops_6000
+ces-it-pma@mail.foxconn.com fileserver2 lh-cdc401-private-compute-32 2018-03-29 1 10.134.236.87 4 8 CentOS_7.2_1511_x86_64_DB_30G /dev/vda 40 iops_2400 /dev/vdb 300 ssd_iops_6000
+johnny.zd.hsu@fii-foxconn.com FiWoAD_A lh-cdc401-private-compute-53 2018-05-26 3 10.134.236.188 4 8 cn_windows_server_2012_r2_x64_standard_50G /dev/vda 200 iops_600
+johnny.zd.hsu@fii-foxconn.com FiWoAD_B lh-cdc401-private-compute-52 2018-05-26 3 10.134.236.208 4 8 cn_windows_server_2012_r2_x64_standard_50G /dev/vda 200 iops_600
+talen.yj.li@mail.foxconn.com Pentaho-CPEG-SH lh-cdc401-private-compute-55 2018-05-10 1 10.134.236.71 4 4 en_windows_server_2012_r2_x64_standard_50G /dev/vda 50 ssd_iops_3000 /dev/vdb 100 iops_150
+jeff.sy.lai@fii-foxconn.com NEW_Machine1 lh-cdc401-private-compute-10 2018-10-13 1 10.134.228.89 8 32 WindowsServer2012R2_DataCenter_ENG /dev/vda 200 ssd_iops_1000 /dev/vdb 500 ssd_iops_1000
+jeff.sy.lai@fii-foxconn.com NEW_Machine2 lh-cdc401-private-compute-5 2018-10-13 1 10.134.228.90 8 32 WindowsServer2012R2_DataCenter_ENG /dev/vda 200 ssd_iops_1000 /dev/vdb 500 ssd_iops_1000
+jeff.sy.lai@fii-foxconn.com NEW_Machine3 lh-cdc401-private-compute-12 2018-10-13 1 10.134.228.91 4 16 WindowsServer2012R2_DataCenter_ENG /dev/vda 200 ssd_iops_1000 /dev/vdb 300 ssd_iops_1000
+jeff.sy.lai@fii-foxconn.com NEW_Machine4 lh-cdc401-private-compute-10 2018-10-13 1 10.134.228.92 4 16 WindowsServer2012R2_DataCenter_ENG /dev/vda 200 ssd_iops_1000 /dev/vdb 300 ssd_iops_1000
+leo.lh.chen@eson.com.cn ESON_ESK01 lh-cdc401-private-compute-14 2018-10-19 1 10.134.225.51 4 4 WindowsServer2016_DataCenter_ENG /dev/vda 150 ssd_iops_1000 /dev/vdb 200 ssd_iops_1000
+leo.lh.chen@eson.com.cn allen_test lh-cdc401-private-compute-26 2018-11-02 1 10.134.225.110 4 4 WindowsServer2016_DataCenter_ENG /dev/vda 150 ssd_iops_1000
+ces-hrd-libi@mail.foxconn.com CESBGLHFACE1 lh-cdc401-private-compute-15 2018-09-28 1 10.134.225.16 4 16 WindowsServer2012R2_DataCenter_ENG /dev/vda 100 iops_300 /dev/vdb 300 iops_300
+ces-hrd-libi@mail.foxconn.com CESBGLHFACE2 lh-cdc401-private-compute-12 2018-09-28 1 10.134.225.17 4 16 WindowsServer2012R2_DataCenter_ENG /dev/vda 100 iops_300 /dev/vdb 300 iops_300
+shi-he.wu@mail.foxconn.com MangoDB1 lh-cdc401-private-compute-3 2018-02-06 1 10.134.171.233 16 64 fixo-cloud-image-centos7-1611-30G-Development /dev/vda 100 iops_150 /dev/vdb 2000 iops_600
+shi-he.wu@mail.foxconn.com MangoDB2 lh-cdc401-private-compute-22 2018-02-06 1 10.134.171.234 16 64 fixo-cloud-image-centos7-1611-30G-Development /dev/vda 100 iops_150 /dev/vdb 2000 iops_600
+shi-he.wu@mail.foxconn.com Node_JS_Server1 lh-cdc401-private-compute-54 2018-02-06 1 10.134.171.235 8 32 win2012r2x64_ENG_patched /dev/vda 100 iops_150 /dev/vdb 100 iops_150
+shi-he.wu@mail.foxconn.com Node_JS_Server2 lh-cdc401-private-compute-24 2018-02-06 1 10.134.171.237 8 32 win2012r2x64_ENG_patched /dev/vda 100 iops_150 /dev/vdb 100 iops_150
+shi-he.wu@mail.foxconn.com Node_JS_Server3 lh-cdc401-private-compute-11 2018-02-06 1 10.134.171.240 8 32 win2012r2x64_ENG_patched /dev/vda 100 iops_150 /dev/vdb 100 iops_150
+shi-he.wu@mail.foxconn.com IIS_Server1 lh-cdc401-private-compute-15 2018-02-06 1 10.134.171.246 8 64 win2012r2x64_ENG_patched /dev/vda 100 iops_150 /dev/vdb 100 iops_150
+shi-he.wu@mail.foxconn.com IIS_Server2 lh-cdc401-private-compute-43 2018-02-06 1 10.134.171.251 8 64 win2012r2x64_ENG_patched /dev/vda 100 iops_150 /dev/vdb 100 iops_150
+sara.j.he@mail.foxconn.com HRJX_WEBAP1 lh-cdc401-private-compute-5 2018-09-07 1 10.134.228.81 4 4 WindowsServer2012R2_Standard_ENG /dev/vda 100 iops_300 /dev/vdb 50 iops_300
+sara.j.he@mail.foxconn.com HRJX_WEBAP2 lh-cdc401-private-compute-26 2018-09-07 1 10.134.228.82 4 4 WindowsServer2012R2_Standard_ENG /dev/vda 100 iops_300 /dev/vdb 50 iops_300
+sara.j.he@mail.foxconn.com HRJX_API1 lh-cdc401-private-compute-26 2018-09-07 1 10.134.226.124 4 4 CentOS6.5 /dev/vda 50 iops_300 /dev/vdb 50 iops_300
+sara.j.he@mail.foxconn.com HRJX_API2 lh-cdc401-private-compute-19 2018-09-07 1 10.134.226.125 4 4 CentOS6.5 /dev/vda 50 iops_300 /dev/vdb 50 iops_300
+sara.j.he@mail.foxconn.com HRJX_DB1 lh-cdc401-private-compute-26 2018-09-07 1 10.134.226.126 16 32 CentOS6.5 /dev/vda 50 ssd_iops_1000 /dev/vdb 50 ssd_iops_1000
+sara.j.he@mail.foxconn.com HRJX_DB2 lh-cdc401-private-compute-19 2018-09-07 1 10.134.226.127 16 32 CentOS6.5 /dev/vda 50 ssd_iops_1000 /dev/vdb 50 ssd_iops_1000
+sara.j.he@mail.foxconn.com HRJX_Cache1 lh-cdc401-private-compute-12 2018-09-07 1 10.134.226.128 8 16 CentOS6.5 /dev/vda 50 ssd_iops_1000
+sara.j.he@mail.foxconn.com HRJX_Cache2 lh-cdc401-private-compute-5 2018-09-07 1 10.134.226.129 8 16 CentOS6.5 /dev/vda 50 ssd_iops_1000
+tj-it@foxconn.com Win2012_R2_64biten_IISDB lh-cdc401-private-compute-8 2017-03-24 1 10.134.171.53 4 8 en_windows_server_2012_r2_x64_datacenter-50G /dev/vda 100 iops_300 /dev/vdc 400 iops_300
+tj-it@foxconn.com Win2012_R2_64biten_DBdescript_OS lh-cdc401-private-compute-4 2017-03-24 1 10.134.171.54 2 4 en_windows_server_2012_r2_x64_datacenter-50G /dev/vda 100 iops_300 /dev/vdb 7168 NULL
+qing-xia.huang@mail.foxconn.com DCC_Control_1 lh-cdc401-private-compute-6 2018-07-26 1 10.134.226.54 4 8 cn_windows_server_2012_r2_x64_datacenter_50G /dev/vda 100 iops_600 /dev/vdb 500 iops_600
+qing-xia.huang@mail.foxconn.com DCC_Control_DB_1 lh-cdc401-private-compute-10 2018-07-26 1 10.134.226.55 8 16 cn_windows_server_2012_r2_x64_datacenter_50G /dev/vda 100 iops_600 /dev/vdb 200 ssd_iops_3000
+qing-xia.huang@mail.foxconn.com DCC_Control_DB_2 lh-cdc401-private-compute-6 2018-07-26 1 10.134.226.56 8 16 cn_windows_server_2012_r2_x64_datacenter_50G /dev/vda 100 iops_600 /dev/vdb 200 ssd_iops_3000
+fii.test.gq@foxconn.com gq lh-cdc401-private-compute-12 2018-08-10 1 10.134.226.69 4 8 RHEL7.0 /dev/vda 50 iops_600 /dev/vdb 50 iops_600 /dev/vdc 10 iops_600 /dev/vdd 10 iops_600
+de-guo.lu@mail.foxconn.com B042FSMTCloud1 lh-cdc401-private-compute-2 2018-05-09 1 10.134.236.214 16 32 en_windows_server_2012_r2_x64_standard_50G /dev/vda 50 ssd_iops_3000 /dev/vdb 2000 iops_600
+de-guo.lu@mail.foxconn.com B042FSMTCloud2 lh-cdc401-private-compute-11 2018-05-09 1 10.134.236.215 16 32 en_windows_server_2012_r2_x64_standard_50G /dev/vda 50 ssd_iops_3000 /dev/vdb 2000 iops_600
+cnsbg-zixun@foxconn.com cnsbg-zx-WEBServer-Windows2008R2-64-TW-WebServer lh-cdc401-private-compute-55 2017-06-16 1 10.134.171.42 8 32 tw_windows_server_2008_r2_x64_enterprise_50G /dev/vda 100 iops-150 /dev/vdb 300 iops-150
+cnsbg-zixun@foxconn.com ubuntu1604 lh-cdc401-private-compute-23 2017-12-04 1 10.134.171.40 8 16 ubuntu-16.04-x86-64 /dev/vda 100 iops_600
+cnsbg-zixun@foxconn.com cnsbg-zx-MYSQL-Windows2008R2-64-TW-Mysql-180904 lh-cdc401-private-compute-6 2018-09-04 1 10.134.171.41 8 32 WindowsServer2008R2_Enterprise_TW /dev/vda 100 iops_300 /dev/vdb 300 ssd_iops_1000 /dev/vdc 300 iops_600
+tom.k.wan@mail.foxconn.com Redmine lh-cdc401-private-compute-26 2018-08-30 1 10.134.226.105 8 16 CentOS7.4 /dev/vda 50 iops_300 /dev/vdb 500 iops_300
+tom.k.wan@mail.foxconn.com BigData_1 lh-cdc401-private-compute-6 2018-08-31 1 10.134.226.107 8 16 CentOS7.4 /dev/vda 50 iops_300 /dev/vdb 500 iops_300
+tom.k.wan@mail.foxconn.com BigData_2 lh-cdc401-private-compute-10 2018-08-31 1 10.134.226.108 8 16 CentOS7.4 /dev/vda 50 iops_300 /dev/vdb 500 iops_300
+tom.k.wan@mail.foxconn.com BigData_3 lh-cdc401-private-compute-26 2018-08-31 1 10.134.226.109 8 16 CentOS7.4 /dev/vda 50 iops_300 /dev/vdb 500 iops_300
+tom.k.wan@mail.foxconn.com SFC lh-cdc401-private-compute-12 2018-08-31 1 10.134.226.111 8 32 CentOS7.4 /dev/vda 50 iops_300 /dev/vdb 9000 iops_300
+Kook.ck.liao@mail.foxconn.com iVantiPatch_POC lh-cdc401-private-compute-16 2018-07-03 1 10.134.171.149 4 16 win2012r2x64_ENG_patched /dev/vda 100 ssd_iops_3000
+gary.cj.lee@foxconn.com ubuntu_1604_compute_server lh-cdc401-private-compute-7 2017-09-09 1 10.134.171.227 8 32 UBD1606 /dev/vda 300 iops_600 /dev/vdb 512 iops_150 /dev/vdc 500 iops_150
+gary.cj.lee@foxconn.com TEST lh-cdc401-private-compute-4 2018-03-15 1 10.134.236.32 4 16 ubuntu-16.04-server-cloudimg-amd64 /dev/vda 300 NULL
+gary.cj.lee@foxconn.com ubuntu228 lh-cdc401-private-compute-1 2018-03-16 1 10.134.171.37 4 16 ubuntu-16.04-server-cloudimg-amd64 /dev/vda 300 NULL
+gary.cj.lee@foxconn.com ubuntu_16.04_data_server lh-cdc401-private-compute-18 2018-03-16 1 10.134.171.228 4 16 ubuntu-16.04-server-cloudimg-amd64 /dev/vda 300 NULL
+gary.cj.lee@foxconn.com tableau-primary lh-cdc401-private-compute-17 2018-06-22 1 10.134.224.208 8 32 en_windows_server_2016_x64_datacenter_50G /dev/vda 200 ssd_iops_3000 /dev/vdb 100 iops_600
+gary.cj.lee@foxconn.com tableau-worker1_table lh-cdc401-private-compute-17 2018-06-22 1 10.134.224.209 8 32 en_windows_server_2016_x64_datacenter_50G /dev/vda 200 ssd_iops_3000 /dev/vdb 100 iops_600
+gary.cj.lee@foxconn.com tableau-worker2_table2 lh-cdc401-private-compute-53 2018-06-22 1 10.134.224.210 8 32 en_windows_server_2016_x64_datacenter_50G /dev/vda 200 ssd_iops_3000 /dev/vdb 100 iops_600

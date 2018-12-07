@@ -1,0 +1,22 @@
+Usage: 
+	"make"  	for help
+	"make run"  	for execute
+	"make clean"  	for clean old-data
+	e.g.
+	[root@lh-cdc401-private-mariadb-1 ives_test_section]# make
+
+
+Other:
+	./test would generate vm_overall.txt
+	proj.txt might need to be updated
+
+Date:
+	May 11, 2018
+
+Author:
+	DCaS/CloudPlatform
+
+
+Suggestion:
+	This is for temporary solution.
+	Using python to reconstruct the data structure is more reliable and flexible.	
