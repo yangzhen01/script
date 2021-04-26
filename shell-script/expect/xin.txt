@@ -5,7 +5,7 @@ while {[gets $f ip]>=0} {
    spawn ssh-copy-id -i  /root/.ssh/id_rsa.pub $ip
    expect {
       "*yes/no*" {send "yes\n";exp_continue}
-      "*password:" {send "foxconn\n";exp_continue}
+      "*password:" {send "xxxx\n";exp_continue}
    }
 }
 
